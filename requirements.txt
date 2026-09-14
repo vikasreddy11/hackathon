@@ -8,3 +8,10 @@ pytest-cov>=5.0
 
 # Optional: PDF ingestion support
 # pypdf>=4.0
+
+# ============================================================
+# M2 — RAG + GraphRAG Pipelines
+# ============================================================
+sentence-transformers>=3.0.0
+faiss-cpu>=1.8.0
+
