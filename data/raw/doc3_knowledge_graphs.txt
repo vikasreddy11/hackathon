@@ -1,0 +1,27 @@
+Knowledge Graphs in AI: Structure, Construction, and Applications
+
+A knowledge graph (KG) is a structured representation of real-world entities and the relationships between them.
+Nodes represent entities (people, organizations, concepts, places) and edges represent typed relationships
+(e.g., WORKS_AT, FOUNDED_BY, LOCATED_IN, PART_OF).
+
+Major knowledge graphs in production include Wikidata (maintained by the Wikimedia Foundation), Google's
+Knowledge Graph (powering search features), Freebase (acquired by Google in 2010), and DBpedia (extracted
+from Wikipedia). In the biomedical domain, ontologies such as SNOMED CT, Gene Ontology, and DrugBank serve
+as domain-specific knowledge graphs.
+
+Knowledge graph construction pipelines typically involve:
+- Named Entity Recognition (NER): Identifying entity mentions in text using models like spaCy, BERT-NER,
+  or GLiNER. Common entity types include PERSON, ORGANIZATION, GPE (geopolitical entity), PRODUCT, and EVENT.
+- Relation Extraction (RE): Classifying the semantic relationship between entity pairs. Models include
+  REBEL (from Babelscape), GenIE, and PL-Marker.
+- Entity Linking (EL): Mapping extracted entity mentions to canonical entries in a reference KB such as
+  Wikidata or UMLS.
+- Coreference Resolution: Resolving pronoun and mention chains to ensure consistent entity identity.
+
+Graph databases such as Neo4j, Amazon Neptune, and TigerGraph provide efficient storage and traversal of
+large knowledge graphs. Query languages like SPARQL (for RDF graphs) and Cypher (for Neo4j property graphs)
+enable expressive graph queries.
+
+Knowledge graphs enhance LLM pipelines through structured grounding, enabling multi-hop reasoning that is
+difficult to achieve with flat document retrieval alone. Systems like KGRAG, ToG (Think-on-Graph), and
+KGP (Knowledge Graph Prompting) demonstrate significant accuracy gains on complex QA benchmarks.

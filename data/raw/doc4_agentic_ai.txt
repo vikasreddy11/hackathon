@@ -1,0 +1,31 @@
+Agentic AI Systems: From Assistants to Autonomous Agents
+
+Agentic AI refers to systems where a language model acts as a reasoning engine that autonomously plans,
+uses tools, and executes multi-step tasks to achieve a goal. Unlike traditional LLM deployments that produce
+a single response, agentic systems operate in loops: observe → think → act → observe.
+
+The ReAct (Reason + Act) paradigm, introduced by Yao et al. at Princeton and Google Brain in 2022, was
+among the first frameworks to formalize this interleaving of reasoning traces and tool-use actions.
+Subsequent frameworks such as LangChain, LlamaIndex, AutoGPT, BabyAGI, and CrewAI built production-ready
+tooling around this idea.
+
+Modern agentic architectures share common components:
+- Planner/Orchestrator: Decomposes a high-level goal into subtasks (e.g., using GPT-4 with structured
+  output or Claude's extended thinking).
+- Tool Registry: A set of callable APIs — web search (Bing, Tavily), code execution (Python REPL),
+  file I/O, database queries, and external service APIs.
+- Memory: Short-term (conversation context window), long-term (vector store, key-value store), and
+  episodic (structured logs of past actions).
+- Executor/Worker Agents: Specialized sub-agents handling domain-specific tasks.
+
+Multi-agent architectures (e.g., Microsoft AutoGen, Anthropic's multi-agent research) coordinate multiple
+specialized agents — a researcher agent, a coder agent, a critic agent — via structured message passing.
+
+Agentic GraphRAG extends standard GraphRAG by giving agents access to a knowledge graph as a structured
+tool. The agent can issue graph traversal queries (e.g., "find all entities connected to OpenAI within
+2 hops") to gather structured context before generating a response. This enables multi-hop reasoning over
+complex relationship networks that flat vector search cannot handle.
+
+Key challenges include reliability (agents failing silently), hallucinated tool calls, infinite loops,
+and security (prompt injection via tool outputs). Frameworks like LangGraph and DSPy introduce structured
+state machines and programmatic prompt optimization to address these issues.

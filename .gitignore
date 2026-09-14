@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+.env
+
+# Secrets / config
+.env
+*.env.*
+secrets.yaml
+
+# Data caches & large outputs
+data/processed/
+*.pkl
+*.graphml
+*.jsonl
+
+# spaCy models
+*.tar.gz
+en_core_web_*/
+
+# IDE / OS
+.idea/
+.vscode/
+*.DS_Store
+Thumbs.db
+
+# Pytest / coverage
+.pytest_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log

@@ -1,0 +1,26 @@
+Large Language Models: Foundations and Advances
+
+Large language models (LLMs) have fundamentally transformed natural language processing (NLP) over the past decade.
+Models such as GPT-4, Claude, Gemini, and LLaMA have demonstrated unprecedented capabilities in text generation,
+reasoning, summarization, and code synthesis.
+
+At the core of these systems is the Transformer architecture, introduced by Vaswani et al. in 2017.
+The Transformer relies on a self-attention mechanism that allows each token in a sequence to attend to every
+other token, enabling the model to capture long-range dependencies without recurrence.
+
+Pretraining on vast corpora of internet text using next-token prediction has proven to be a powerful
+unsupervised learning objective. OpenAI's GPT series scaled this approach from 117M to over 1 trillion
+parameters. Google DeepMind's Gemini models are trained on multimodal data including text, code, images,
+and audio, blurring the line between language and vision models.
+
+Instruction tuning and Reinforcement Learning from Human Feedback (RLHF) are now standard post-training steps.
+RLHF, pioneered by Anthropic and OpenAI, uses human preference data to align model outputs with human intent,
+reducing harmful, biased, or unhelpful responses.
+
+Key challenges remain: hallucination (generating factually incorrect but plausible-sounding content),
+context length limitations, computational cost, and interpretability. Researchers at DeepMind, Meta AI,
+Microsoft Research, and Stanford are actively working on solutions such as retrieval-augmented generation (RAG),
+chain-of-thought prompting, and sparse attention mechanisms.
+
+The field is moving rapidly. By 2025, open-source models such as LLaMA 3 and Mistral have closed much of
+the gap with proprietary systems, enabling broader research access and deployment flexibility.

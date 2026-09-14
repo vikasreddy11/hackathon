@@ -1,0 +1,31 @@
+Evaluation of AI Systems: Benchmarks, Metrics, and Best Practices
+
+Rigorous evaluation is critical for understanding the capabilities and limitations of AI systems.
+The field has developed a rich ecosystem of benchmarks, automated metrics, and human evaluation protocols.
+
+Standard NLP benchmarks include:
+- GLUE and SuperGLUE: Multi-task language understanding benchmarks covering sentiment, inference,
+  coreference, and QA tasks. Introduced by Wang et al. at NYU and Google.
+- MMLU (Massive Multitask Language Understanding): Tests knowledge across 57 academic subjects.
+  State-of-the-art models like GPT-4 and Gemini Ultra achieve >80% accuracy.
+- HumanEval: Code generation benchmark from OpenAI, measuring functional correctness of generated programs.
+- BIG-Bench: A collaborative benchmark of 204 tasks designed to probe LLM limitations.
+- HELM (Holistic Evaluation of Language Models): Stanford's framework covering accuracy, calibration,
+  robustness, fairness, and efficiency.
+
+For RAG-specific evaluation, the RAGAS framework (Retrieval-Augmented Generation Assessment) measures:
+- Faithfulness: Are claims in the answer supported by retrieved context?
+- Answer Relevancy: Does the answer address the question?
+- Context Precision and Recall: Quality of retrieved chunks relative to the ground truth.
+
+Knowledge graph quality metrics include triple precision/recall, entity linking accuracy, and
+relation extraction F1 score. Tools like KEEN (Knowledge Graph Embedding Evaluation) benchmark
+link prediction and entity disambiguation.
+
+Human evaluation remains the gold standard for open-ended generation tasks. Evaluation dimensions include
+fluency, coherence, factual accuracy, helpfulness, and harmlessness. Companies like Scale AI and Surge AI
+provide crowdsourcing platforms for large-scale human annotation.
+
+Responsible AI evaluation increasingly includes bias audits (using datasets like BBQ and WinoBias),
+safety red-teaming (structured adversarial prompting), and privacy assessments. Regulatory frameworks
+such as the EU AI Act are beginning to mandate evaluation transparency for high-risk AI systems.

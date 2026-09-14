@@ -1,0 +1,10 @@
+# ============================================================
+# M1 — Data Ingestion + Knowledge Graph
+# ============================================================
+spacy>=3.7,<4.0
+networkx>=3.2
+pytest>=8.0
+pytest-cov>=5.0
+
+# Optional: PDF ingestion support
+# pypdf>=4.0
