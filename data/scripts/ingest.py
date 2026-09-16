@@ -245,9 +245,9 @@ def ingest(
                 all_chunks.append(record)
                 chunk_index += 1
 
-            print(f"[ingest]   → {chunk_index} chunks written for {doc_id}")
+            print(f"[ingest]   -> {chunk_index} chunks written for {doc_id}")
 
-    print(f"\n[ingest] Done. {len(all_chunks)} total chunks → {out_path}")
+    print(f"\n[ingest] Done. {len(all_chunks)} total chunks -> {out_path}")
     return all_chunks
 
 

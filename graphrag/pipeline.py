@@ -148,6 +148,10 @@ def run_graphrag(
 
 
 if __name__ == "__main__":
+    import sys
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
     parser = argparse.ArgumentParser(description="Run GraphRAG on a query.")
     parser.add_argument("question", type=str, help="Question to ask")
     parser.add_argument("--top-k-entities", type=int, default=10, help="Max entities to expand")
