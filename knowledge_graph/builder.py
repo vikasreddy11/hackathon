@@ -88,7 +88,7 @@ class GraphBuilder:
         if not chunks:
             raise ValueError(f"No chunks found in {chunks_path}")
 
-        self._log(f"Building graph from {len(chunks)} chunks …")
+        self._log(f"Building graph from {len(chunks)} chunks ...")
 
         # Track entities per document for RELATED_TO edges
         doc_entities: dict[str, set[str]] = defaultdict(set)

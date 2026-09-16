@@ -98,6 +98,10 @@ def run_rag(
 
 
 if __name__ == "__main__":
+    import sys
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
     parser = argparse.ArgumentParser(description="Run standard RAG on a query.")
     parser.add_argument("question", type=str, help="Question to ask")
     parser.add_argument("--top-k", type=int, default=3, help="Number of chunks to retrieve")
