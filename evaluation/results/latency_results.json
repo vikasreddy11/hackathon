@@ -1,0 +1,9 @@
+{
+  "questions_tested": 100,
+  "rag": {
+    "average_latency_seconds": 1.9446248679992277
+  },
+  "graphrag": {
+    "average_latency_seconds": 0.0020923050015699118
+  }
+}

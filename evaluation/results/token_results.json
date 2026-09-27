@@ -1,0 +1,613 @@
+{
+  "questions_tested": 100,
+  "rag": {
+    "average_approx_tokens": 1851.84,
+    "median_approx_tokens": 1876.0
+  },
+  "graphrag": {
+    "average_approx_tokens": 284.87,
+    "median_approx_tokens": 89.0
+  },
+  "questions": [
+    {
+      "qid": "pub-001",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 711,
+      "graph_relevant_records": 11
+    },
+    {
+      "qid": "pub-002",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 86,
+      "graph_relevant_records": 2
+    },
+    {
+      "qid": "pub-003",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 883,
+      "graph_relevant_records": 17
+    },
+    {
+      "qid": "pub-004",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 2059,
+      "graph_relevant_records": 43
+    },
+    {
+      "qid": "pub-005",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 49,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-006",
+      "rag_approx_tokens": 1240,
+      "graphrag_approx_tokens": 91,
+      "graph_relevant_records": 2
+    },
+    {
+      "qid": "pub-007",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 88,
+      "graph_relevant_records": 2
+    },
+    {
+      "qid": "pub-008",
+      "rag_approx_tokens": 1720,
+      "graphrag_approx_tokens": 406,
+      "graph_relevant_records": 8
+    },
+    {
+      "qid": "pub-009",
+      "rag_approx_tokens": 1532,
+      "graphrag_approx_tokens": 42,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-010",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 466,
+      "graph_relevant_records": 10
+    },
+    {
+      "qid": "pub-011",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 50,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-012",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 987,
+      "graph_relevant_records": 14
+    },
+    {
+      "qid": "pub-013",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 107,
+      "graph_relevant_records": 2
+    },
+    {
+      "qid": "pub-014",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 46,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-015",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 69,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-016",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 102,
+      "graph_relevant_records": 2
+    },
+    {
+      "qid": "pub-017",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 46,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-018",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 102,
+      "graph_relevant_records": 2
+    },
+    {
+      "qid": "pub-019",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 570,
+      "graph_relevant_records": 8
+    },
+    {
+      "qid": "pub-020",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 514,
+      "graph_relevant_records": 10
+    },
+    {
+      "qid": "pub-021",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 449,
+      "graph_relevant_records": 10
+    },
+    {
+      "qid": "pub-022",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 55,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-023",
+      "rag_approx_tokens": 1750,
+      "graphrag_approx_tokens": 51,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-024",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 422,
+      "graph_relevant_records": 8
+    },
+    {
+      "qid": "pub-025",
+      "rag_approx_tokens": 1249,
+      "graphrag_approx_tokens": 44,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-026",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 98,
+      "graph_relevant_records": 2
+    },
+    {
+      "qid": "pub-027",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 602,
+      "graph_relevant_records": 10
+    },
+    {
+      "qid": "pub-028",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 54,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-029",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 53,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-030",
+      "rag_approx_tokens": 1786,
+      "graphrag_approx_tokens": 43,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-031",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 49,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-032",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 42,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-033",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 615,
+      "graph_relevant_records": 14
+    },
+    {
+      "qid": "pub-034",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 45,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-035",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 53,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-036",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 105,
+      "graph_relevant_records": 2
+    },
+    {
+      "qid": "pub-037",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 721,
+      "graph_relevant_records": 14
+    },
+    {
+      "qid": "pub-038",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 50,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-039",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 94,
+      "graph_relevant_records": 2
+    },
+    {
+      "qid": "pub-040",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 100,
+      "graph_relevant_records": 2
+    },
+    {
+      "qid": "pub-041",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 50,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-042",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 47,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-043",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 46,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-044",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 602,
+      "graph_relevant_records": 10
+    },
+    {
+      "qid": "pub-045",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 2027,
+      "graph_relevant_records": 43
+    },
+    {
+      "qid": "pub-046",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 48,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-047",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 48,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-048",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 90,
+      "graph_relevant_records": 2
+    },
+    {
+      "qid": "pub-049",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 103,
+      "graph_relevant_records": 2
+    },
+    {
+      "qid": "pub-050",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 48,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-051",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 910,
+      "graph_relevant_records": 16
+    },
+    {
+      "qid": "pub-052",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 79,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-053",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 685,
+      "graph_relevant_records": 14
+    },
+    {
+      "qid": "pub-054",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 52,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-055",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 92,
+      "graph_relevant_records": 2
+    },
+    {
+      "qid": "pub-056",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 92,
+      "graph_relevant_records": 2
+    },
+    {
+      "qid": "pub-057",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 90,
+      "graph_relevant_records": 2
+    },
+    {
+      "qid": "pub-058",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 820,
+      "graph_relevant_records": 12
+    },
+    {
+      "qid": "pub-059",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 103,
+      "graph_relevant_records": 2
+    },
+    {
+      "qid": "pub-060",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 44,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-061",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 48,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-062",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 91,
+      "graph_relevant_records": 2
+    },
+    {
+      "qid": "pub-063",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 48,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-064",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 53,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-065",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 655,
+      "graph_relevant_records": 11
+    },
+    {
+      "qid": "pub-066",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 480,
+      "graph_relevant_records": 10
+    },
+    {
+      "qid": "pub-067",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 45,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-068",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 47,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-069",
+      "rag_approx_tokens": 1511,
+      "graphrag_approx_tokens": 592,
+      "graph_relevant_records": 10
+    },
+    {
+      "qid": "pub-070",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 475,
+      "graph_relevant_records": 10
+    },
+    {
+      "qid": "pub-071",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 56,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-072",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 94,
+      "graph_relevant_records": 2
+    },
+    {
+      "qid": "pub-073",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 60,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-074",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 87,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-075",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 62,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-076",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 45,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-077",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 59,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-078",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 787,
+      "graph_relevant_records": 16
+    },
+    {
+      "qid": "pub-079",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 51,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-080",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 53,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-081",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 51,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-082",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 1427,
+      "graph_relevant_records": 26
+    },
+    {
+      "qid": "pub-083",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 48,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-084",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 562,
+      "graph_relevant_records": 8
+    },
+    {
+      "qid": "pub-085",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 589,
+      "graph_relevant_records": 11
+    },
+    {
+      "qid": "pub-086",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 45,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-087",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 1825,
+      "graph_relevant_records": 38
+    },
+    {
+      "qid": "pub-088",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 463,
+      "graph_relevant_records": 10
+    },
+    {
+      "qid": "pub-089",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 566,
+      "graph_relevant_records": 12
+    },
+    {
+      "qid": "pub-090",
+      "rag_approx_tokens": 1804,
+      "graphrag_approx_tokens": 99,
+      "graph_relevant_records": 2
+    },
+    {
+      "qid": "pub-091",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 50,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-092",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 598,
+      "graph_relevant_records": 13
+    },
+    {
+      "qid": "pub-093",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 455,
+      "graph_relevant_records": 9
+    },
+    {
+      "qid": "pub-094",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 101,
+      "graph_relevant_records": 2
+    },
+    {
+      "qid": "pub-095",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 47,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-096",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 54,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-097",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 87,
+      "graph_relevant_records": 2
+    },
+    {
+      "qid": "pub-098",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 59,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-099",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 82,
+      "graph_relevant_records": 1
+    },
+    {
+      "qid": "pub-100",
+      "rag_approx_tokens": 1876,
+      "graphrag_approx_tokens": 96,
+      "graph_relevant_records": 2
+    }
+  ]
+}
