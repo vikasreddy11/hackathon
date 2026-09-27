@@ -1,0 +1,22 @@
+{
+  "aggregation": {
+    "total": 21,
+    "correct": 21
+  },
+  "temporal": {
+    "total": 22,
+    "correct": 21
+  },
+  "superlative": {
+    "total": 10,
+    "correct": 10
+  },
+  "multi_hop": {
+    "total": 28,
+    "correct": 5
+  },
+  "lookup": {
+    "total": 19,
+    "correct": 17
+  }
+}
