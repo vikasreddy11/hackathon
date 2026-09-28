@@ -236,12 +236,12 @@ class NetworkXGraphStore(GraphStore):
 
         # GraphML — serialise all node/edge attributes as strings
         nx.write_graphml(self._graph, str(graphml_path))
-        print(f"[GraphStore] Saved GraphML → {graphml_path}")
+        print(f"[GraphStore] Saved GraphML -> {graphml_path}")
 
         # Pickle
         with open(pkl_path, "wb") as fh:
             pickle.dump(self._graph, fh, protocol=pickle.HIGHEST_PROTOCOL)
-        print(f"[GraphStore] Saved pickle  → {pkl_path}")
+        print(f"[GraphStore] Saved pickle  -> {pkl_path}")
 
     def load(
         self,
@@ -252,10 +252,10 @@ class NetworkXGraphStore(GraphStore):
         if pkl_path and Path(pkl_path).exists():
             with open(pkl_path, "rb") as fh:
                 self._graph = pickle.load(fh)
-            print(f"[GraphStore] Loaded pickle  ← {pkl_path}")
+            print(f"[GraphStore] Loaded pickle  <- {pkl_path}")
         elif graphml_path and Path(graphml_path).exists():
             self._graph = nx.read_graphml(str(graphml_path))
-            print(f"[GraphStore] Loaded GraphML ← {graphml_path}")
+            print(f"[GraphStore] Loaded GraphML <- {graphml_path}")
         else:
             raise FileNotFoundError(
                 f"No graph file found at pkl={pkl_path}, graphml={graphml_path}"

@@ -11,6 +11,12 @@ import os
 import re
 from typing import Any
 
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
 
 def _extractive_mock_answer(question: str, prompt: str) -> str:
     """
@@ -101,7 +107,8 @@ class LLMClient:
             elif resolved == "openai":
                 return self._call_openai(prompt, system_prompt, target_model or "gpt-4o-mini", temperature, max_tokens)
             elif resolved == "gemini":
-                return self._call_gemini(prompt, system_prompt, target_model or "gemini-2.0-flash", temperature, max_tokens)
+                default_gemini = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
+                return self._call_gemini(prompt, system_prompt, target_model or default_gemini, temperature, max_tokens)
             elif resolved == "anthropic":
                 return self._call_anthropic(prompt, system_prompt, target_model or "claude-3-5-haiku-20241022", temperature, max_tokens)
             else:
@@ -141,14 +148,25 @@ class LLMClient:
         return completion.choices[0].message.content or ""
 
     def _call_gemini(self, prompt: str, system_prompt: str, model: str, temperature: float, max_tokens: int) -> str:
+        import time
         from google import genai
         client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
         full_content = f"{system_prompt}\n\n{prompt}"
-        response = client.models.generate_content(
-            model=model,
-            contents=full_content,
-        )
-        return response.text or ""
+        for attempt in range(4):
+            try:
+                response = client.models.generate_content(
+                    model=model,
+                    contents=full_content,
+                )
+                return response.text or ""
+            except Exception as exc:
+                if "429" in str(exc) or "RESOURCE_EXHAUSTED" in str(exc):
+                    if attempt < 3:
+                        wait_sec = 20
+                        print(f"\n[Gemini Free Tier] Rate limit reached. Pausing {wait_sec}s before retry ({attempt + 1}/3)...")
+                        time.sleep(wait_sec)
+                        continue
+                raise
 
     def _call_anthropic(self, prompt: str, system_prompt: str, model: str, temperature: float, max_tokens: int) -> str:
         import anthropic

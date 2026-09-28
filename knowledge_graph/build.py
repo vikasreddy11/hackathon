@@ -119,7 +119,7 @@ def run_pipeline(args: argparse.Namespace) -> None:
     # ------------------------------------------------------------------
     # Stage 1: Ingest
     # ------------------------------------------------------------------
-    print("\n[Stage 1] Ingesting raw documents …")
+    print("\n[Stage 1] Ingesting raw documents ...")
     chunks = ingest(
         raw_dir=args.raw_dir,
         output_dir=output_dir,
@@ -135,7 +135,7 @@ def run_pipeline(args: argparse.Namespace) -> None:
     # ------------------------------------------------------------------
     # Stage 2: Build graph
     # ------------------------------------------------------------------
-    print(f"\n[Stage 2] Building knowledge graph …")
+    print(f"\n[Stage 2] Building knowledge graph ...")
     print(f"  spaCy model : {args.spacy_model}")
 
     try:
@@ -157,7 +157,7 @@ def run_pipeline(args: argparse.Namespace) -> None:
     # ------------------------------------------------------------------
     # Stage 3: Save
     # ------------------------------------------------------------------
-    print(f"\n[Stage 3] Saving graph …")
+    print(f"\n[Stage 3] Saving graph ...")
     store.save(graphml_path=graphml_out, pkl_path=pkl_out)
 
     summary = store.summary()
@@ -168,9 +168,9 @@ def run_pipeline(args: argparse.Namespace) -> None:
     print(f"  Node types       : {summary['node_type_counts']}")
     print(f"  Edge types       : {summary['edge_type_counts']}")
     print(f"\n  Outputs:")
-    print(f"    chunks.jsonl  → {chunks_path}")
-    print(f"    graph.graphml → {graphml_out}")
-    print(f"    graph.pkl     → {pkl_out}")
+    print(f"    chunks.jsonl  -> {chunks_path}")
+    print(f"    graph.graphml -> {graphml_out}")
+    print(f"    graph.pkl     -> {pkl_out}")
     print("\nDone.")
 
 
