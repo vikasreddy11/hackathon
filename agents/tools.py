@@ -1,6 +1,5 @@
 """
 agents/tools.py
-===============
 The five tools available to the agentic orchestrator.
 
 What is a "tool"?
