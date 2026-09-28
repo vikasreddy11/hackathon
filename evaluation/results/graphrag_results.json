@@ -1,0 +1,3994 @@
+{
+  "summary": {
+    "total": 100,
+    "correct": 100,
+    "accuracy": 100.0
+  },
+  "questions": [
+    {
+      "qid": "pub-001",
+      "question": "According to the provided corpus, how many biathlon events at the 2018 Winter Olympics had more than 73 competitors?",
+      "qtype": "aggregation",
+      "graphrag_answer": "5",
+      "gold_answer": [
+        "5"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "aggregation",
+        "answer": "5",
+        "count": 5,
+        "records": [
+          {
+            "doc_id": "Q47155555",
+            "title": "Biathlon at the 2018 Winter Olympics – Mixed relay",
+            "event": "Mixed relay",
+            "games": "2018 Winter",
+            "venue": "Alpensia Biathlon Centre in Pyeongchang, South Korea",
+            "date": "20 February 2018",
+            "competitors": "80",
+            "nations": "20",
+            "gold": "Marie Dorin HabertAnaïs BescondSimon DesthieuxMartin Fourcade",
+            "silver": "Marte OlsbuTiril EckhoffJohannes Thingnes BøEmil Hegle Svendsen",
+            "bronze": "Lisa VittozziDorothea WiererLukas HoferDominik Windisch"
+          },
+          {
+            "doc_id": "Q47091419",
+            "title": "Biathlon at the 2018 Winter Olympics – Women's sprint",
+            "event": "Women's sprint",
+            "games": "2018 Winter",
+            "venue": "Alpensia Biathlon Centre in Pyeongchang, South Korea",
+            "date": "10 February 2018",
+            "competitors": "87",
+            "nations": "27",
+            "gold": "Laura Dahlmeier",
+            "silver": "Marte Olsbu",
+            "bronze": "Veronika Vítková"
+          },
+          {
+            "doc_id": "Q47105341",
+            "title": "Biathlon at the 2018 Winter Olympics – Men's sprint",
+            "event": "Men's sprint",
+            "games": "2018 Winter",
+            "venue": "Alpensia Biathlon Centre in Pyeongchang, South Korea",
+            "date": "11 February 2018",
+            "competitors": "87",
+            "nations": "26",
+            "gold": "Arnd Peiffer",
+            "silver": "Michal Krčmář",
+            "bronze": "Dominik Windisch"
+          },
+          {
+            "doc_id": "Q47155425",
+            "title": "Biathlon at the 2018 Winter Olympics – Women's individual",
+            "event": "Women's individual",
+            "games": "2018 Winter",
+            "venue": "Alpensia Biathlon Centre in Pyeongchang, South Korea",
+            "date": "15 February 2018",
+            "competitors": "87",
+            "nations": "27",
+            "gold": "Hanna Öberg",
+            "silver": "Anastasiya Kuzmina",
+            "bronze": "Laura Dahlmeier"
+          },
+          {
+            "doc_id": "Q47155408",
+            "title": "Biathlon at the 2018 Winter Olympics – Men's individual",
+            "event": "Men's individual",
+            "games": "2018 Winter",
+            "venue": "Alpensia Biathlon Centre in Pyeongchang, South Korea",
+            "date": "15 February 2018",
+            "competitors": "86",
+            "nations": "26",
+            "gold": "Johannes Thingnes Bø",
+            "silver": "Jakov Fak",
+            "bronze": "Dominik Landertinger"
+          }
+        ]
+      }
+    },
+    {
+      "qid": "pub-002",
+      "question": "Who won the gold medal in the men's 20 kilometres walk athletics event at the Summer Olympics held immediately before 2016?",
+      "qtype": "temporal",
+      "graphrag_answer": "Chen Ding",
+      "gold_answer": [
+        "Chen Ding"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Chen Ding",
+        "answer_type": "gold",
+        "title": "Athletics at the 2012 Summer Olympics – Men's 20 kilometres walk",
+        "event": "Men's 20 kilometres walk",
+        "games": "2012 Summer",
+        "venue": "The Mall",
+        "date": "4 August 2012",
+        "competitors": "56",
+        "nations": "34",
+        "gold": "Chen Ding",
+        "doc_id": "Q1050909"
+      }
+    },
+    {
+      "qid": "pub-003",
+      "question": "According to the provided corpus, how many shooting events at the 2004 Summer Olympics had more than 37 competitors?",
+      "qtype": "aggregation",
+      "graphrag_answer": "8",
+      "gold_answer": [
+        "8"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "aggregation",
+        "answer": "8",
+        "count": 8,
+        "records": [
+          {
+            "doc_id": "Q7500827",
+            "title": "Shooting at the 2004 Summer Olympics – Men's 50 metre pistol",
+            "event": "Men's 50 metre pistol",
+            "games": "2004 Summer",
+            "venue": "Markópoulo Olympic Shooting Centre",
+            "date": "17 August 2004",
+            "competitors": "42",
+            "nations": "31",
+            "gold": "Mikhail Nestruyev",
+            "silver": "Jin Jong-oh",
+            "bronze": "Kim Jong-su"
+          },
+          {
+            "doc_id": "Q7500832",
+            "title": "Shooting at the 2004 Summer Olympics – Men's 50 metre rifle prone",
+            "event": "Men's 50 metre rifle prone",
+            "games": "2004 Summer",
+            "venue": "Markópoulo Olympic ShootingCentre",
+            "date": "August 20, 2004",
+            "competitors": "46",
+            "nations": "34",
+            "gold": "Matthew Emmons",
+            "silver": "Christian Lusch",
+            "bronze": "Sergei Martynov"
+          },
+          {
+            "doc_id": "Q7500834",
+            "title": "Shooting at the 2004 Summer Olympics – Men's skeet",
+            "event": "Men's skeet",
+            "games": "2004 Summer",
+            "venue": "Markópoulo Olympic ShootingCentre",
+            "date": "August 21, 2004August 22, 2004",
+            "competitors": "41",
+            "nations": "32",
+            "gold": "Andrea Benelli",
+            "silver": "Marko Kemppainen",
+            "bronze": "Juan Miguel Rodríguez"
+          },
+          {
+            "doc_id": "Q5395306",
+            "title": "Shooting at the 2004 Summer Olympics – Men's 50 metre rifle three positions",
+            "event": "Men's 50 metre rifle three positions",
+            "games": "2004 Summer",
+            "venue": "Markópoulo Olympic ShootingCentre",
+            "date": "22 August 2004",
+            "competitors": "40",
+            "nations": "29",
+            "gold": "Jia Zhanbo",
+            "silver": "Michael Anti",
+            "bronze": "Christian Planer"
+          },
+          {
+            "doc_id": "Q7500829",
+            "title": "Shooting at the 2004 Summer Olympics – Men's 10 metre air rifle",
+            "event": "Men's 10 metre air rifle",
+            "games": "2004 Summer",
+            "venue": "Markópoulo Olympic ShootingCentre",
+            "date": "16 August 2004",
+            "competitors": "47",
+            "nations": "33",
+            "gold": "Zhu Qinan",
+            "silver": "Li Jie",
+            "bronze": "Jozef Gönci"
+          },
+          {
+            "doc_id": "Q4354074",
+            "title": "Shooting at the 2004 Summer Olympics – Women's 10 metre air rifle",
+            "event": "Women's 10 metre air rifle",
+            "games": "2004 Summer",
+            "venue": "Markópoulo Olympic ShootingCentre",
+            "date": "August 14, 2004",
+            "competitors": "44",
+            "nations": "31",
+            "gold": "Du Li",
+            "silver": "Lioubov Galkina",
+            "bronze": "Kateřina Kůrková"
+          },
+          {
+            "doc_id": "Q4354615",
+            "title": "Shooting at the 2004 Summer Olympics – Men's 10 metre air pistol",
+            "event": "Men's 10 metre air pistol",
+            "games": "2004 Summer",
+            "venue": "Markópoulo Olympic ShootingCentre",
+            "date": "14 August 2004",
+            "competitors": "47",
+            "nations": "35",
+            "gold": "Wang Yifu",
+            "silver": "Mikhail Nestruyev",
+            "bronze": "Vladimir Isakov"
+          },
+          {
+            "doc_id": "Q5481589",
+            "title": "Shooting at the 2004 Summer Olympics – Women's 10 metre air pistol",
+            "event": "Women's 10 metre air pistol",
+            "games": "2004 Summer",
+            "venue": "Markópoulo Olympic ShootingCentre",
+            "date": "August 15, 2004",
+            "competitors": "41",
+            "nations": "30",
+            "gold": "Olena Kostevych",
+            "silver": "Jasna Šekarić",
+            "bronze": "Mariya Grozdeva"
+          }
+        ]
+      }
+    },
+    {
+      "qid": "pub-004",
+      "question": "According to the provided corpus, which athletics event at the 2008 Summer Olympics had the highest number of competitors?",
+      "qtype": "superlative",
+      "graphrag_answer": "Athletics at the 2008 Summer Olympics – Men's marathon",
+      "gold_answer": [
+        "Athletics at the 2008 Summer Olympics – Men's marathon"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "superlative",
+        "answer": "Athletics at the 2008 Summer Olympics – Men's marathon",
+        "title": "Athletics at the 2008 Summer Olympics – Men's marathon",
+        "event": "Men's marathon",
+        "games": "2008 Summer",
+        "venue": "Beijing",
+        "date": null,
+        "competitors": "95",
+        "nations": "56",
+        "gold": "Samuel Wanjiru",
+        "doc_id": "Q693595"
+      }
+    },
+    {
+      "qid": "pub-005",
+      "question": "Who won the gold medal in the event held at Olympic Weightlifting Gymnasium on 20 September 1988?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Naim Süleymanoğlu",
+      "gold_answer": [
+        "Naim Süleymanoğlu"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Naim Süleymanoğlu",
+        "answer_type": "gold",
+        "title": "Weightlifting at the 1988 Summer Olympics – Men's 60 kg",
+        "event": "Men's 60 kg",
+        "games": "1988 Summer",
+        "venue": "Olympic Weightlifting Gymnasium",
+        "date": "20 September 1988",
+        "competitors": "17",
+        "nations": "14",
+        "gold": "Naim Süleymanoğlu",
+        "doc_id": "Q25239316"
+      }
+    },
+    {
+      "qid": "pub-006",
+      "question": "Who won the gold medal in the women's 57 kg judo event at the Summer Olympics held immediately before 2020?",
+      "qtype": "temporal",
+      "graphrag_answer": "Rafaela Silva",
+      "gold_answer": [
+        "Rafaela Silva"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Rafaela Silva",
+        "answer_type": "gold",
+        "title": "Judo at the 2016 Summer Olympics – Women's 57 kg",
+        "event": "Women's 57 kg",
+        "games": "2016 Summer",
+        "venue": "Carioca Arena 2",
+        "date": "8 August 2016",
+        "competitors": "23",
+        "nations": "23",
+        "gold": "Rafaela Silva",
+        "doc_id": "Q26217865"
+      }
+    },
+    {
+      "qid": "pub-007",
+      "question": "Who won the gold medal in the men's pole vault athletics event at the Summer Olympics held immediately before 2016?",
+      "qtype": "temporal",
+      "graphrag_answer": "Renaud Lavillenie",
+      "gold_answer": [
+        "Renaud Lavillenie"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Renaud Lavillenie",
+        "answer_type": "gold",
+        "title": "Athletics at the 2012 Summer Olympics – Men's pole vault",
+        "event": "Men's pole vault",
+        "games": "2012 Summer",
+        "venue": "Olympic Stadium",
+        "date": "8–10 August",
+        "competitors": "32",
+        "nations": "23",
+        "gold": "Renaud Lavillenie",
+        "doc_id": "Q2000968"
+      }
+    },
+    {
+      "qid": "pub-008",
+      "question": "According to the provided corpus, which sailing event at the 2000 Summer Olympics had the highest number of competitors?",
+      "qtype": "superlative",
+      "graphrag_answer": "Sailing at the 2000 Summer Olympics – Soling",
+      "gold_answer": [
+        "Sailing at the 2000 Summer Olympics – Soling"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "superlative",
+        "answer": "Sailing at the 2000 Summer Olympics – Soling",
+        "title": "Sailing at the 2000 Summer Olympics – Soling",
+        "event": "Fleet/Match",
+        "games": "2000 Summer",
+        "venue": "Sydney",
+        "date": null,
+        "competitors": "48",
+        "nations": "16",
+        "gold": "Jesper Bank Henrik Blakskjær Thomas Jacobsen",
+        "doc_id": "Q7400333"
+      }
+    },
+    {
+      "qid": "pub-009",
+      "question": "How many nations competed in Sailing at the 2016 Summer Olympics – Women's RS:X?",
+      "qtype": "lookup",
+      "graphrag_answer": "26",
+      "gold_answer": [
+        "26"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "26",
+        "answer_type": "nations",
+        "title": "Sailing at the 2016 Summer Olympics – Women's RS:X",
+        "event": "Women's RS:X",
+        "games": "2016 Summer",
+        "venue": "Marina da Glória",
+        "date": null,
+        "competitors": "26",
+        "nations": "26",
+        "gold": "Charline Picon",
+        "doc_id": "Q26254891"
+      }
+    },
+    {
+      "qid": "pub-010",
+      "question": "According to the provided corpus, how many cycling events at the 2000 Summer Olympics had more than 30 competitors?",
+      "qtype": "aggregation",
+      "graphrag_answer": "4",
+      "gold_answer": [
+        "4"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "aggregation",
+        "answer": "4",
+        "count": 4,
+        "records": [
+          {
+            "doc_id": "Q1856784",
+            "title": "Cycling at the 2000 Summer Olympics – Men's cross-country",
+            "event": "Men's cross-country",
+            "games": "2000 Summer",
+            "venue": null,
+            "date": "24 September",
+            "competitors": "49",
+            "nations": "26",
+            "gold": "Miguel Martinez",
+            "silver": "Filip Meirhaeghe",
+            "bronze": "Christoph Sauser"
+          },
+          {
+            "doc_id": "Q2133123",
+            "title": "Cycling at the 2000 Summer Olympics – Women's individual road race",
+            "event": "Women's cycling road race",
+            "games": "2000 Summer",
+            "venue": "Centennial Parklands, Sydney",
+            "date": "26 September",
+            "competitors": "57",
+            "nations": "23",
+            "gold": "Leontien Zijlaard",
+            "silver": "Hanka Kupfernagel",
+            "bronze": "Diana Žiliūtė"
+          },
+          {
+            "doc_id": "Q3001459",
+            "title": "Cycling at the 2000 Summer Olympics – Men's individual road race",
+            "event": "Men's cycling road race",
+            "games": "2000 Summer",
+            "venue": "Centennial Parklands, Sydney",
+            "date": "27 September",
+            "competitors": "154",
+            "nations": "41",
+            "gold": "Jan Ullrich",
+            "silver": "Alexander Vinokourov",
+            "bronze": "Andreas Klöden"
+          },
+          {
+            "doc_id": "Q2526348",
+            "title": "Cycling at the 2000 Summer Olympics – Men's road time trial",
+            "event": "Men's road time trial",
+            "games": "2000 Summer",
+            "venue": null,
+            "date": "30 September 2000",
+            "competitors": "38",
+            "nations": "26",
+            "gold": "Viatcheslav Ekimov",
+            "silver": "Jan Ullrich",
+            "bronze": null
+          }
+        ]
+      }
+    },
+    {
+      "qid": "pub-011",
+      "question": "Who won the gold medal in the event held at Richmond Olympic Oval on 14 February 2010?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Martina Sáblíková",
+      "gold_answer": [
+        "Martina Sáblíková"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Martina Sáblíková",
+        "answer_type": "gold",
+        "title": "Speed skating at the 2010 Winter Olympics – Women's 3000 metres",
+        "event": "Women's 3000 metres",
+        "games": "2010 Winter",
+        "venue": "Richmond Olympic Oval",
+        "date": "14 February 2010",
+        "competitors": "28",
+        "nations": "13",
+        "gold": "Martina Sáblíková",
+        "doc_id": "Q580481"
+      }
+    },
+    {
+      "qid": "pub-012",
+      "question": "According to the provided corpus, how many rowing events at the 2020 Summer Olympics had more than 36 competitors?",
+      "qtype": "aggregation",
+      "graphrag_answer": "6",
+      "gold_answer": [
+        "6"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "aggregation",
+        "answer": "6",
+        "count": 6,
+        "records": [
+          {
+            "doc_id": "Q62020027",
+            "title": "Rowing at the 2020 Summer Olympics – Men's coxless four",
+            "event": "Men's coxless four",
+            "games": "2020 Summer",
+            "venue": "Sea Forest Waterway",
+            "date": null,
+            "competitors": "40",
+            "nations": "10",
+            "gold": "Alexander Purnell Spencer Turrin Jack Hargreaves Alexander Hill",
+            "silver": "Mihăiță Țigănescu Mugurel Semciuc Ștefan Berariu Cosmin Pascari",
+            "bronze": "Matteo Castaldo Matteo Lodo Giuseppe VicinoMarco Di Costanzo Bruno Rosetti (h)"
+          },
+          {
+            "doc_id": "Q62020029",
+            "title": "Rowing at the 2020 Summer Olympics – Men's quadruple sculls",
+            "event": "Men's quadruple sculls",
+            "games": "2020 Summer",
+            "venue": "Sea Forest Waterway",
+            "date": null,
+            "competitors": "40",
+            "nations": "10",
+            "gold": "Dirk UittenbogaardAbe WiersmaTone WietenKoen Metsemakers",
+            "silver": "Harry LeaskAngus GroomTom BarrasJack Beaumont",
+            "bronze": "Jack ClearyCaleb AntillCameron GirdlestoneLuke Letcher"
+          },
+          {
+            "doc_id": "Q62020035",
+            "title": "Rowing at the 2020 Summer Olympics – Women's coxless four",
+            "event": "Women's coxless four",
+            "games": "2020 Summer",
+            "venue": "Sea Forest Waterway",
+            "date": null,
+            "competitors": "40",
+            "nations": "10",
+            "gold": "Lucy Stephan Rosemary Popa Jessica Morrison Annabelle McIntyre",
+            "silver": "Ellen Hogerwerf Karolien Florijn Ymkje Clevering Veronique Meester",
+            "bronze": "Aifric Keogh Eimear Lambe Fiona Murtagh Emily Hegarty"
+          },
+          {
+            "doc_id": "Q62020030",
+            "title": "Rowing at the 2020 Summer Olympics – Women's quadruple sculls",
+            "event": "Women's quadruple sculls",
+            "games": "2020 Summer",
+            "venue": "Sea Forest Waterway",
+            "date": null,
+            "competitors": "40",
+            "nations": "10",
+            "gold": "Chen YunxiaZhang LingLü YangCui Xiaotong",
+            "silver": "Agnieszka KobusMarta WieliczkoMaria SajdakKatarzyna Zillmann",
+            "bronze": "Ria ThompsonRowena MeredithHarriet HudsonCaitlin Cronin"
+          },
+          {
+            "doc_id": "Q62020028",
+            "title": "Rowing at the 2020 Summer Olympics – Men's eight",
+            "event": "Men's eight",
+            "games": "2020 Summer",
+            "venue": "Sea Forest Waterway",
+            "date": null,
+            "competitors": "63",
+            "nations": "7",
+            "gold": "Tom MackintoshHamish BondTom MurrayMichael BrakeDan WilliamsonPhillip WilsonShaun KirkhamMatt MacdonaldSam Bosworth",
+            "silver": "Johannes WeißenfeldLaurits FollertOlaf RoggensackTorben JohannesenJakob SchneiderMalte JakschikRichard SchmidtHannes OcikMartin Sauer",
+            "bronze": "Josh BugajskiJacob DawsonThomas GeorgeMoe SbihiCharles ElwesOliver Wynne-GriffithJames RudkinThomas FordHenry Fieldman"
+          },
+          {
+            "doc_id": "Q62020034",
+            "title": "Rowing at the 2020 Summer Olympics – Women's eight",
+            "event": "Women's eight",
+            "games": "2020 Summer",
+            "venue": "Sea Forest Waterway",
+            "date": null,
+            "competitors": "63",
+            "nations": "7",
+            "gold": "Lisa Roman Kasia Gruchalla-Wesierski Christine Roper Andrea Proske Susanne Grainger Madison Mailey Sydney Payne Avalon Wasteneys Kristen Kit",
+            "silver": "Ella Greenslade Emma DykeLucy Spoors Kelsey BevanGrace Prendergast Kerri Gowler Beth Ross Jackie Gowler Caleb Shepherd",
+            "bronze": "Wang Zifeng Wang Yuwei Xu Fei Miao Tian Zhang Min Ju Rui Li Jingjing Guo Linlin Zhang Dechang"
+          }
+        ]
+      }
+    },
+    {
+      "qid": "pub-013",
+      "question": "Who won the gold medal in the women's 200 metre freestyle swimming event at the Summer Olympics held immediately before 2016?",
+      "qtype": "temporal",
+      "graphrag_answer": "Allison Schmitt",
+      "gold_answer": [
+        "Allison Schmitt"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Allison Schmitt",
+        "answer_type": "gold",
+        "title": "Swimming at the 2012 Summer Olympics – Women's 200 metre freestyle",
+        "event": "Women's 200 metre freestyle",
+        "games": "2012 Summer",
+        "venue": "London Aquatics Centre",
+        "date": "July 30, 2012 (heats &semifinals)July 31, 2012 (final)",
+        "competitors": "37",
+        "nations": "31",
+        "gold": "Allison Schmitt",
+        "doc_id": "Q2071152"
+      }
+    },
+    {
+      "qid": "pub-014",
+      "question": "Who won the gold medal in the event held at Riocentro – Pavilion 4 on 11–19 August at the 2016 Summer Olympics?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Carolina Marín",
+      "gold_answer": [
+        "Carolina Marín"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Carolina Marín",
+        "answer_type": "gold",
+        "title": "Badminton at the 2016 Summer Olympics – Women's singles",
+        "event": "Women's singles",
+        "games": "2016 Summer",
+        "venue": "Riocentro – Pavilion 4",
+        "date": "11–19 August",
+        "competitors": "40",
+        "nations": "35",
+        "gold": "Carolina Marín",
+        "doc_id": "Q25301483"
+      }
+    },
+    {
+      "qid": "pub-015",
+      "question": "Who won the gold medal in the event held at London Velopark on 3 to 4 August at the 2012 Summer Olympics?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Dani KingLaura TrottJoanna Rowsell",
+      "gold_answer": [
+        "Dani KingLaura TrottJoanna Rowsell"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Dani KingLaura TrottJoanna Rowsell",
+        "answer_type": "gold",
+        "title": "Cycling at the 2012 Summer Olympics – Women's team pursuit",
+        "event": "Women's cycling team pursuit",
+        "games": "2012 Summer",
+        "venue": "London Velopark",
+        "date": "3 to 4 August",
+        "competitors": "32",
+        "nations": "10",
+        "gold": "Dani KingLaura TrottJoanna Rowsell",
+        "doc_id": "Q2297633"
+      }
+    },
+    {
+      "qid": "pub-016",
+      "question": "Who won the gold medal in the men's sprint biathlon event at the Winter Olympics held immediately before 2022?",
+      "qtype": "temporal",
+      "graphrag_answer": "Arnd Peiffer",
+      "gold_answer": [
+        "Arnd Peiffer"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Arnd Peiffer",
+        "answer_type": "gold",
+        "title": "Biathlon at the 2018 Winter Olympics – Men's sprint",
+        "event": "Men's sprint",
+        "games": "2018 Winter",
+        "venue": "Alpensia Biathlon Centre in Pyeongchang, South Korea",
+        "date": "11 February 2018",
+        "competitors": "87",
+        "nations": "26",
+        "gold": "Arnd Peiffer",
+        "doc_id": "Q47105341"
+      }
+    },
+    {
+      "qid": "pub-017",
+      "question": "Who won the gold medal in the event held at Royal Artillery Barracks on 28 July 2012?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Yi Siling",
+      "gold_answer": [
+        "Yi Siling"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Yi Siling",
+        "answer_type": "gold",
+        "title": "Shooting at the 2012 Summer Olympics – Women's 10 metre air rifle",
+        "event": "Women's 10 metre air rifle",
+        "games": "2012 Summer",
+        "venue": "Royal Artillery Barracks",
+        "date": "28 July 2012",
+        "competitors": "56",
+        "nations": "41",
+        "gold": "Yi Siling",
+        "doc_id": "Q1137721"
+      }
+    },
+    {
+      "qid": "pub-018",
+      "question": "Who won the gold medal in the men's freestyle 82 kg wrestling event at the Summer Olympics held immediately before 1996?",
+      "qtype": "temporal",
+      "graphrag_answer": "Kevin Jackson",
+      "gold_answer": [
+        "Kevin Jackson"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Kevin Jackson",
+        "answer_type": "gold",
+        "title": "Wrestling at the 1992 Summer Olympics – Men's freestyle 82 kg",
+        "event": "Men's freestyle 82 kg",
+        "games": "1992 Summer",
+        "venue": "Institut Nacional d'Educació Física de Catalunya",
+        "date": null,
+        "competitors": "19",
+        "nations": "19",
+        "gold": "Kevin Jackson",
+        "doc_id": "Q3498597"
+      }
+    },
+    {
+      "qid": "pub-019",
+      "question": "According to the provided corpus, how many fencing events at the 1988 Summer Olympics had more than 68 competitors?",
+      "qtype": "aggregation",
+      "graphrag_answer": "3",
+      "gold_answer": [
+        "3"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "aggregation",
+        "answer": "3",
+        "count": 3,
+        "records": [
+          {
+            "doc_id": "Q5443138",
+            "title": "Fencing at the 1988 Summer Olympics – Men's team foil",
+            "event": "Men's team foil",
+            "games": "1988 Summer",
+            "venue": "Olympic Fencing Gymnasium",
+            "date": null,
+            "competitors": "76",
+            "nations": "16",
+            "gold": "Aleksandr Romankov Ilgar Mammadov Vladimer Aptsiauri Anvar Ibragimov Boris Koretsky",
+            "silver": "Matthias Gey Thorsten Weidner Matthias Behr Ulrich Schreck Thomas Endres",
+            "bronze": "Zsolt Érsek Pál Szekeres István Szelei István Busa Róbert Gátai"
+          },
+          {
+            "doc_id": "Q5443140",
+            "title": "Fencing at the 1988 Summer Olympics – Men's team épée",
+            "event": "Men's team épée",
+            "games": "1988 Summer",
+            "venue": "Olympic Fencing Gymnasium",
+            "date": null,
+            "competitors": "85",
+            "nations": "18",
+            "gold": "Frédéric Delpla Jean-Michel Henry Olivier Lenglet Philippe Riboud Éric Srecki",
+            "silver": "Elmar Borrmann Volker Fischer Thomas Gerull Alexander Pusch Arnd Schmitt",
+            "bronze": "Andrey Shuvalov Pavel Kolobkov Wladimir Resnitschenko Mykhailo Tyshko Igor Tikhomirov"
+          },
+          {
+            "doc_id": "Q5443142",
+            "title": "Fencing at the 1988 Summer Olympics – Men's épée",
+            "event": "Men's épée",
+            "games": "1988 Summer",
+            "venue": "SK Olympic Handball Gymnasium (then \"Olympic Fencing Gymnasium\")",
+            "date": null,
+            "competitors": "79",
+            "nations": "33",
+            "gold": "Arnd Schmitt",
+            "silver": "Philippe Riboud",
+            "bronze": "Andrey Shuvalov"
+          }
+        ]
+      }
+    },
+    {
+      "qid": "pub-020",
+      "question": "According to the provided corpus, how many alpine skiing events at the 2014 Winter Olympics had more than 63 competitors?",
+      "qtype": "aggregation",
+      "graphrag_answer": "4",
+      "gold_answer": [
+        "4"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "aggregation",
+        "answer": "4",
+        "count": 4,
+        "records": [
+          {
+            "doc_id": "Q15054999",
+            "title": "Alpine skiing at the 2014 Winter Olympics – Women's giant slalom",
+            "event": "Women's giant slalom",
+            "games": "2014 Winter",
+            "venue": "Rosa Khutor Alpine ResortKrasnaya Polyana, Russia",
+            "date": "18 February 2014",
+            "competitors": "90",
+            "nations": "48",
+            "gold": "Tina Maze",
+            "silver": "Anna Fenninger",
+            "bronze": "Viktoria Rebensburg"
+          },
+          {
+            "doc_id": "Q15055004",
+            "title": "Alpine skiing at the 2014 Winter Olympics – Men's slalom",
+            "event": "Men's slalom",
+            "games": "2014 Winter",
+            "venue": "Rosa Khutor Alpine ResortKrasnaya Polyana, Russia",
+            "date": "22 February 2014",
+            "competitors": "115",
+            "nations": "61",
+            "gold": "Mario Matt",
+            "silver": "Marcel Hirscher",
+            "bronze": "Henrik Kristoffersen"
+          },
+          {
+            "doc_id": "Q15055001",
+            "title": "Alpine skiing at the 2014 Winter Olympics – Men's giant slalom",
+            "event": "Men's giant slalom",
+            "games": "2014 Winter",
+            "venue": "Rosa Khutor Alpine Resort",
+            "date": "19 February 2014",
+            "competitors": "109",
+            "nations": "62",
+            "gold": "Ted Ligety",
+            "silver": "Steve Missillier",
+            "bronze": "Alexis Pinturault"
+          },
+          {
+            "doc_id": "Q15055002",
+            "title": "Alpine skiing at the 2014 Winter Olympics – Women's slalom",
+            "event": "Women's slalom",
+            "games": "2014 Winter",
+            "venue": "Rosa Khutor Alpine Resort",
+            "date": "21 February 2014",
+            "competitors": "85",
+            "nations": "48",
+            "gold": "Mikaela Shiffrin",
+            "silver": "Marlies Schild",
+            "bronze": "Kathrin Zettel"
+          }
+        ]
+      }
+    },
+    {
+      "qid": "pub-021",
+      "question": "According to the provided corpus, which alpine skiing event at the 1988 Winter Olympics had the highest number of competitors?",
+      "qtype": "superlative",
+      "graphrag_answer": "Alpine skiing at the 1988 Winter Olympics – Men's giant slalom",
+      "gold_answer": [
+        "Alpine skiing at the 1988 Winter Olympics – Men's giant slalom"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "superlative",
+        "answer": "Alpine skiing at the 1988 Winter Olympics – Men's giant slalom",
+        "title": "Alpine skiing at the 1988 Winter Olympics – Men's giant slalom",
+        "event": "Men's giant slalom",
+        "games": "1988 Winter",
+        "venue": "Nakiska",
+        "date": "February 25, 1988",
+        "competitors": "117",
+        "nations": "38",
+        "gold": "Alberto Tomba",
+        "doc_id": "Q1005804"
+      }
+    },
+    {
+      "qid": "pub-022",
+      "question": "Who won the gold medal in the event held at Beijing Science and TechnologyUniversity Gymnasium on August 12, 2008?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Ayumi Tanimoto",
+      "gold_answer": [
+        "Ayumi Tanimoto"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Ayumi Tanimoto",
+        "answer_type": "gold",
+        "title": "Judo at the 2008 Summer Olympics – Women's 63 kg",
+        "event": "Women's 63 kg",
+        "games": "2008 Summer",
+        "venue": "Beijing Science and TechnologyUniversity Gymnasium",
+        "date": "August 12, 2008",
+        "competitors": "25",
+        "nations": "25",
+        "gold": "Ayumi Tanimoto",
+        "doc_id": "Q1193975"
+      }
+    },
+    {
+      "qid": "pub-023",
+      "question": "Who won the gold medal in the event held at Estadi Olímpic Lluís Companys, Barcelona on August 9 at the 1992 Summer Olympics?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Hwang Young-Cho",
+      "gold_answer": [
+        "Hwang Young-Cho"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Hwang Young-Cho",
+        "answer_type": "gold",
+        "title": "Athletics at the 1992 Summer Olympics – Men's marathon",
+        "event": "Men's marathon",
+        "games": "1992 Summer",
+        "venue": "Estadi Olímpic Lluís Companys, Barcelona",
+        "date": "August 9",
+        "competitors": "110",
+        "nations": "72",
+        "gold": "Hwang Young-Cho",
+        "doc_id": "Q1407627"
+      }
+    },
+    {
+      "qid": "pub-024",
+      "question": "According to the provided corpus, how many biathlon events at the 2002 Winter Olympics had more than 74 competitors?",
+      "qtype": "aggregation",
+      "graphrag_answer": "3",
+      "gold_answer": [
+        "3"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "aggregation",
+        "answer": "3",
+        "count": 3,
+        "records": [
+          {
+            "doc_id": "Q256759",
+            "title": "Biathlon at the 2002 Winter Olympics – Men's individual",
+            "event": "Men's biathlon individual",
+            "games": "2002 Winter",
+            "venue": "Soldier Hollow",
+            "date": null,
+            "competitors": "87",
+            "nations": "34",
+            "gold": "Ole Einar Bjørndalen",
+            "silver": "Frank Luck",
+            "bronze": "Viktor Maigourov"
+          },
+          {
+            "doc_id": "Q1004918",
+            "title": "Biathlon at the 2002 Winter Olympics – Men's sprint",
+            "event": "Men's biathlon sprint",
+            "games": "2002 Winter",
+            "venue": "Soldier Hollow",
+            "date": null,
+            "competitors": "87",
+            "nations": "34",
+            "gold": "Ole Einar Bjørndalen",
+            "silver": "Sven Fischer",
+            "bronze": "Wolfgang Perner"
+          },
+          {
+            "doc_id": "Q1005108",
+            "title": "Biathlon at the 2002 Winter Olympics – Men's relay",
+            "event": "Men's biathlon relay",
+            "games": "2002 Winter",
+            "venue": "Soldier Hollow",
+            "date": null,
+            "competitors": "76",
+            "nations": "19",
+            "gold": "Halvard HanevoldFrode AndresenEgil GjellandOle Einar Bjørndalen",
+            "silver": "Ricco GroßPeter SendelSven FischerFrank Luck",
+            "bronze": "Gilles MarguetVincent DefrasneJulien RobertRaphaël Poirée"
+          }
+        ]
+      }
+    },
+    {
+      "qid": "pub-025",
+      "question": "How many nations competed in Judo at the 2016 Summer Olympics – Women's 57 kg?",
+      "qtype": "lookup",
+      "graphrag_answer": "23",
+      "gold_answer": [
+        "23"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "23",
+        "answer_type": "nations",
+        "title": "Judo at the 2016 Summer Olympics – Women's 57 kg",
+        "event": "Women's 57 kg",
+        "games": "2016 Summer",
+        "venue": "Carioca Arena 2",
+        "date": "8 August 2016",
+        "competitors": "23",
+        "nations": "23",
+        "gold": "Rafaela Silva",
+        "doc_id": "Q26217865"
+      }
+    },
+    {
+      "qid": "pub-026",
+      "question": "Who won the gold medal in the men's cross-country cycling event at the Summer Olympics held immediately before 2016?",
+      "qtype": "temporal",
+      "graphrag_answer": "Jaroslav Kulhavý",
+      "gold_answer": [
+        "Jaroslav Kulhavý"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Jaroslav Kulhavý",
+        "answer_type": "gold",
+        "title": "Cycling at the 2012 Summer Olympics – Men's cross-country",
+        "event": "Men's cross-country cycling",
+        "games": "2012 Summer",
+        "venue": "Hadleigh Farm",
+        "date": "12 August",
+        "competitors": "47",
+        "nations": "31",
+        "gold": "Jaroslav Kulhavý",
+        "doc_id": "Q2036655"
+      }
+    },
+    {
+      "qid": "pub-027",
+      "question": "According to the provided corpus, how many fencing events at the 2008 Summer Olympics had more than 32 competitors?",
+      "qtype": "aggregation",
+      "graphrag_answer": "4",
+      "gold_answer": [
+        "4"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "aggregation",
+        "answer": "4",
+        "count": 4,
+        "records": [
+          {
+            "doc_id": "Q2726746",
+            "title": "Fencing at the 2008 Summer Olympics – Women's foil",
+            "event": "Women's foil",
+            "games": "2008 Summer",
+            "venue": "Olympic Green Convention Centre",
+            "date": "11 August 2008",
+            "competitors": "41",
+            "nations": "24",
+            "gold": "Valentina Vezzali",
+            "silver": "Nam Hyun-Hee",
+            "bronze": "Margherita Granbassi"
+          },
+          {
+            "doc_id": "Q2570052",
+            "title": "Fencing at the 2008 Summer Olympics – Men's épée",
+            "event": "Men's épée",
+            "games": "2008 Summer",
+            "venue": "Olympic Green Convention Centre",
+            "date": "10 August 2008",
+            "competitors": "41000000",
+            "nations": "23",
+            "gold": "Matteo Tagliariol",
+            "silver": "Fabrice Jeannet",
+            "bronze": "José Luis Abajo"
+          },
+          {
+            "doc_id": "Q2570149",
+            "title": "Fencing at the 2008 Summer Olympics – Men's sabre",
+            "event": "Men's sabre",
+            "games": "2008 Summer",
+            "venue": "Olympic Green Convention Centre",
+            "date": "12 August 2008",
+            "competitors": "40",
+            "nations": "21",
+            "gold": "Zhong Man",
+            "silver": "Nicolas Lopez",
+            "bronze": "Mihai Covaliu"
+          },
+          {
+            "doc_id": "Q2570068",
+            "title": "Fencing at the 2008 Summer Olympics – Women's sabre",
+            "event": "Women's sabre",
+            "games": "2008 Summer",
+            "venue": "Olympic Green Convention Centre",
+            "date": "9 August 2008",
+            "competitors": "39",
+            "nations": "20",
+            "gold": "Mariel Zagunis",
+            "silver": "Sada Jacobson",
+            "bronze": "Rebecca Ward"
+          }
+        ]
+      }
+    },
+    {
+      "qid": "pub-028",
+      "question": "Who won the gold medal in the event held at Olympic Aquatic Centre on August 14, 2004 (heats & final)?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Michael Phelps",
+      "gold_answer": [
+        "Michael Phelps"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Michael Phelps",
+        "answer_type": "gold",
+        "title": "Swimming at the 2004 Summer Olympics – Men's 400 metre individual medley",
+        "event": "Men's 400 metre individual medley",
+        "games": "2004 Summer",
+        "venue": "Olympic Aquatic Centre",
+        "date": "August 14, 2004 (heats & final)",
+        "competitors": "36",
+        "nations": "26",
+        "gold": "Michael Phelps",
+        "doc_id": "Q1141105"
+      }
+    },
+    {
+      "qid": "pub-029",
+      "question": "How many nations competed in Shooting at the 2012 Summer Olympics – Men's 50 metre rifle three positions?",
+      "qtype": "lookup",
+      "graphrag_answer": "28",
+      "gold_answer": [
+        "28"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "28",
+        "answer_type": "nations",
+        "title": "Shooting at the 2012 Summer Olympics – Men's 50 metre rifle three positions",
+        "event": "Men's 50 metre rifle three positions",
+        "games": "2012 Summer",
+        "venue": "Royal Artillery Barracks",
+        "date": "6 August 2012",
+        "competitors": "41",
+        "nations": "28",
+        "gold": "Niccolò Campriani",
+        "doc_id": "Q334901"
+      }
+    },
+    {
+      "qid": "pub-030",
+      "question": "Who won the gold medal in the event held at Carioca Arena 3 on 6 August 2016?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Emese Szász",
+      "gold_answer": [
+        "Emese Szász"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Emese Szász",
+        "answer_type": "gold",
+        "title": "Fencing at the 2016 Summer Olympics – Women's épée",
+        "event": "Women's épée",
+        "games": "2016 Summer",
+        "venue": "Carioca Arena 3",
+        "date": "6 August 2016",
+        "competitors": "37",
+        "nations": "19",
+        "gold": "Emese Szász",
+        "doc_id": "Q25386274"
+      }
+    },
+    {
+      "qid": "pub-031",
+      "question": "Who won the gold medal in the event held at Nikaia Olympic Weightlifting Hall on 24 August 2004?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Dmitry Berestov",
+      "gold_answer": [
+        "Dmitry Berestov"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Dmitry Berestov",
+        "answer_type": "gold",
+        "title": "Weightlifting at the 2004 Summer Olympics – Men's 105 kg",
+        "event": "Men's 105 kg",
+        "games": "2004 Summer",
+        "venue": "Nikaia Olympic Weightlifting Hall",
+        "date": "24 August 2004",
+        "competitors": "22",
+        "nations": "19",
+        "gold": "Dmitry Berestov",
+        "doc_id": "Q1750583"
+      }
+    },
+    {
+      "qid": "pub-032",
+      "question": "How many nations competed in Gymnastics at the 2016 Summer Olympics – Men's horizontal bar?",
+      "qtype": "lookup",
+      "graphrag_answer": "34",
+      "gold_answer": [
+        "34"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "34",
+        "answer_type": "nations",
+        "title": "Gymnastics at the 2016 Summer Olympics – Men's horizontal bar",
+        "event": "Men's horizontal bar",
+        "games": "2016 Summer",
+        "venue": "HSBC Arena",
+        "date": null,
+        "competitors": "71",
+        "nations": "34",
+        "gold": "Fabian Hambüchen",
+        "doc_id": "Q26233795"
+      }
+    },
+    {
+      "qid": "pub-033",
+      "question": "According to the provided corpus, how many judo events at the 2004 Summer Olympics had more than 32 competitors?",
+      "qtype": "aggregation",
+      "graphrag_answer": "4",
+      "gold_answer": [
+        "4"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "aggregation",
+        "answer": "4",
+        "count": 4,
+        "records": [
+          {
+            "doc_id": "Q3811006",
+            "title": "Judo at the 2004 Summer Olympics – Men's 60 kg",
+            "event": "Men's 60 kg",
+            "games": "2004 Summer",
+            "venue": "Ano Liossia Olympic Hall",
+            "date": null,
+            "competitors": "33",
+            "nations": "33",
+            "gold": "Tadahiro Nomura",
+            "silver": "Nestor Khergiani",
+            "bronze": "Khashbaataryn Tsagaanbaatar"
+          },
+          {
+            "doc_id": "Q3811000",
+            "title": "Judo at the 2004 Summer Olympics – Men's +100 kg",
+            "event": "Men's +100 kg",
+            "games": "2004 Summer",
+            "venue": "Ano Liosia Olympic Hall",
+            "date": null,
+            "competitors": "33",
+            "nations": "33",
+            "gold": "Keiji Suzuki",
+            "silver": "Tamerlan Tmenov",
+            "bronze": "Indrek Pertelson"
+          },
+          {
+            "doc_id": "Q3811002",
+            "title": "Judo at the 2004 Summer Olympics – Men's 100 kg",
+            "event": "Men's 100 kg",
+            "games": "2004 Summer",
+            "venue": "Ano Liossia Olympic Hall",
+            "date": null,
+            "competitors": "33",
+            "nations": "33",
+            "gold": "Ihar Makarau",
+            "silver": "Jang Sung-ho",
+            "bronze": "Michael Jurack"
+          },
+          {
+            "doc_id": "Q3811010",
+            "title": "Judo at the 2004 Summer Olympics – Men's 73 kg",
+            "event": "Men's 73 kg",
+            "games": "2004 Summer",
+            "venue": "Ano Liossia Olympic Hall",
+            "date": null,
+            "competitors": "34",
+            "nations": "34",
+            "gold": "Lee Won-hee",
+            "silver": "Vitaliy Makarov",
+            "bronze": "Leandro Guilheiro"
+          }
+        ]
+      }
+    },
+    {
+      "qid": "pub-034",
+      "question": "How many nations competed in Figure skating at the 2010 Winter Olympics – Women's singles?",
+      "qtype": "lookup",
+      "graphrag_answer": "23",
+      "gold_answer": [
+        "23"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "23",
+        "answer_type": "nations",
+        "title": "Figure skating at the 2010 Winter Olympics – Women's singles",
+        "event": "Women's singles",
+        "games": "2010 Winter",
+        "venue": "Pacific ColiseumVancouver, Canada",
+        "date": null,
+        "competitors": "30",
+        "nations": "23",
+        "gold": "Yuna Kim",
+        "doc_id": "Q916735"
+      }
+    },
+    {
+      "qid": "pub-035",
+      "question": "How many nations competed in Shooting at the 1996 Summer Olympics – Men's 50 metre rifle three positions?",
+      "qtype": "lookup",
+      "graphrag_answer": "30",
+      "gold_answer": [
+        "30"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "30",
+        "answer_type": "nations",
+        "title": "Shooting at the 1996 Summer Olympics – Men's 50 metre rifle three positions",
+        "event": "Men's 50 metre rifle three positions",
+        "games": "1996 Summer",
+        "venue": "Wolf Creek Shooting Complex",
+        "date": "27 July 1996",
+        "competitors": "45",
+        "nations": "30",
+        "gold": "Jean-Pierre Amat",
+        "doc_id": "Q7500793"
+      }
+    },
+    {
+      "qid": "pub-036",
+      "question": "Who won the gold medal in the men's light flyweight boxing event at the Summer Olympics held immediately before 2016?",
+      "qtype": "temporal",
+      "graphrag_answer": "Zou Shiming",
+      "gold_answer": [
+        "Zou Shiming"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Zou Shiming",
+        "answer_type": "gold",
+        "title": "Boxing at the 2012 Summer Olympics – Men's light flyweight",
+        "event": "Men's light flyweight boxing",
+        "games": "2012 Summer",
+        "venue": "ExCeL Exhibition Centre",
+        "date": "31 July to 12 August 2012",
+        "competitors": "26",
+        "nations": "26",
+        "gold": "Zou Shiming",
+        "doc_id": "Q2000524"
+      }
+    },
+    {
+      "qid": "pub-037",
+      "question": "According to the provided corpus, which shooting event at the 2008 Summer Olympics had the highest number of competitors?",
+      "qtype": "superlative",
+      "graphrag_answer": "Shooting at the 2008 Summer Olympics – Men's 50 metre rifle prone",
+      "gold_answer": [
+        "Shooting at the 2008 Summer Olympics – Men's 50 metre rifle prone"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "superlative",
+        "answer": "Shooting at the 2008 Summer Olympics – Men's 50 metre rifle prone",
+        "title": "Shooting at the 2008 Summer Olympics – Men's 50 metre rifle prone",
+        "event": "Men's 50 metre rifle prone",
+        "games": "2008 Summer",
+        "venue": "Beijing Shooting Range Hall",
+        "date": "August 15, 2008",
+        "competitors": "56",
+        "nations": "36",
+        "gold": "Artur Ayvazyan",
+        "doc_id": "Q1005722"
+      }
+    },
+    {
+      "qid": "pub-038",
+      "question": "Who won the gold medal in the event held at Sydney Convention and Exhibition Centre on 23 September 2000?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Pyrros Dimas",
+      "gold_answer": [
+        "Pyrros Dimas"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Pyrros Dimas",
+        "answer_type": "gold",
+        "title": "Weightlifting at the 2000 Summer Olympics – Men's 85 kg",
+        "event": "Men's 85 kg",
+        "games": "2000 Summer",
+        "venue": "Sydney Convention and Exhibition Centre",
+        "date": "23 September 2000",
+        "competitors": "20",
+        "nations": "17",
+        "gold": "Pyrros Dimas",
+        "doc_id": "Q7979999"
+      }
+    },
+    {
+      "qid": "pub-039",
+      "question": "Who won the gold medal in the women's discus throw athletics event at the Summer Olympics held immediately before 2016?",
+      "qtype": "temporal",
+      "graphrag_answer": "Sandra Perković",
+      "gold_answer": [
+        "Sandra Perković"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Sandra Perković",
+        "answer_type": "gold",
+        "title": "Athletics at the 2012 Summer Olympics – Women's discus throw",
+        "event": "Women's discus throw",
+        "games": "2012 Summer",
+        "venue": "Olympic Stadium",
+        "date": "3–4 August",
+        "competitors": "36",
+        "nations": "23",
+        "gold": "Sandra Perković",
+        "doc_id": "Q1771958"
+      }
+    },
+    {
+      "qid": "pub-040",
+      "question": "Who won the gold medal in the individual normal hill/10 km nordic combined event at the Winter Olympics held immediately before 2014?",
+      "qtype": "temporal",
+      "graphrag_answer": "Jason Lamy Chappuis",
+      "gold_answer": [
+        "Jason Lamy Chappuis"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Jason Lamy Chappuis",
+        "answer_type": "gold",
+        "title": "Nordic combined at the 2010 Winter Olympics – Individual normal hill/10 km",
+        "event": "Men's individual normal hill/10 km",
+        "games": "2010 Winter",
+        "venue": "Whistler Olympic Park",
+        "date": null,
+        "competitors": "45",
+        "nations": "14",
+        "gold": "Jason Lamy Chappuis",
+        "doc_id": "Q303268"
+      }
+    },
+    {
+      "qid": "pub-041",
+      "question": "Who won the gold medal in the event held at Mountain Bike Centre on 21 August at the 2016 Summer Olympics?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Nino Schurter",
+      "gold_answer": [
+        "Nino Schurter"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Nino Schurter",
+        "answer_type": "gold",
+        "title": "Cycling at the 2016 Summer Olympics – Men's cross-country",
+        "event": "Men's cross-country cycling",
+        "games": "2016 Summer",
+        "venue": "Mountain Bike Centre",
+        "date": "21 August",
+        "competitors": "49",
+        "nations": "32",
+        "gold": "Nino Schurter",
+        "doc_id": "Q25476845"
+      }
+    },
+    {
+      "qid": "pub-042",
+      "question": "How many nations competed in Alpine skiing at the 1992 Winter Olympics – Men's giant slalom?",
+      "qtype": "lookup",
+      "graphrag_answer": "47",
+      "gold_answer": [
+        "47"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "47",
+        "answer_type": "nations",
+        "title": "Alpine skiing at the 1992 Winter Olympics – Men's giant slalom",
+        "event": "Men's giant slalom",
+        "games": "1992 Winter",
+        "venue": "Val d'Isère",
+        "date": "February 18, 1992",
+        "competitors": "131",
+        "nations": "47",
+        "gold": "Alberto Tomba",
+        "doc_id": "Q1005805"
+      }
+    },
+    {
+      "qid": "pub-043",
+      "question": "Who won the gold medal in the event held at Val-d'Isère on 16 February 1992?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Kjetil André Aamodt",
+      "gold_answer": [
+        "Kjetil André Aamodt"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Kjetil André Aamodt",
+        "answer_type": "gold",
+        "title": "Alpine skiing at the 1992 Winter Olympics – Men's super-G",
+        "event": "Men's super-G",
+        "games": "1992 Winter",
+        "venue": "Val-d'Isère",
+        "date": "16 February 1992",
+        "competitors": "118",
+        "nations": "43",
+        "gold": "Kjetil André Aamodt",
+        "doc_id": "Q1534918"
+      }
+    },
+    {
+      "qid": "pub-044",
+      "question": "According to the provided corpus, which fencing event at the 2008 Summer Olympics had the highest number of competitors?",
+      "qtype": "superlative",
+      "graphrag_answer": "Fencing at the 2008 Summer Olympics – Men's épée",
+      "gold_answer": [
+        "Fencing at the 2008 Summer Olympics – Men's épée"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "superlative",
+        "answer": "Fencing at the 2008 Summer Olympics – Men's épée",
+        "title": "Fencing at the 2008 Summer Olympics – Men's épée",
+        "event": "Men's épée",
+        "games": "2008 Summer",
+        "venue": "Olympic Green Convention Centre",
+        "date": "10 August 2008",
+        "competitors": "41000000",
+        "nations": "23",
+        "gold": "Matteo Tagliariol",
+        "doc_id": "Q2570052"
+      }
+    },
+    {
+      "qid": "pub-045",
+      "question": "According to the provided corpus, how many athletics events at the 2004 Summer Olympics had more than 41 competitors?",
+      "qtype": "aggregation",
+      "graphrag_answer": "20",
+      "gold_answer": [
+        "20"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "aggregation",
+        "answer": "20",
+        "count": 20,
+        "records": [
+          {
+            "doc_id": "Q1440658",
+            "title": "Athletics at the 2004 Summer Olympics – Women's discus throw",
+            "event": "Women's discus throw",
+            "games": "2004 Summer",
+            "venue": "Olympic Stadium",
+            "date": null,
+            "competitors": "42",
+            "nations": "27",
+            "gold": "Natalya Sadova",
+            "silver": "Anastasia Kelesidou",
+            "bronze": "Věra Pospíšilová-Cechlová"
+          },
+          {
+            "doc_id": "Q2198226",
+            "title": "Athletics at the 2004 Summer Olympics – Men's triple jump",
+            "event": "Men's triple jump",
+            "games": "2004 Summer",
+            "venue": "Olympic Stadium",
+            "date": null,
+            "competitors": "47",
+            "nations": "35",
+            "gold": "Christian Olsson",
+            "silver": "Marian Oprea",
+            "bronze": "Danil Burkenya"
+          },
+          {
+            "doc_id": "Q1439323",
+            "title": "Athletics at the 2004 Summer Olympics – Women's javelin throw",
+            "event": "Women's javelin throw",
+            "games": "2004 Summer",
+            "venue": "Olympic Stadium",
+            "date": null,
+            "competitors": "45",
+            "nations": "31",
+            "gold": "Osleidys Menéndez",
+            "silver": "Steffi Nerius",
+            "bronze": "Miréla Manjani"
+          },
+          {
+            "doc_id": "Q220855",
+            "title": "Athletics at the 2004 Summer Olympics – Men's 100 metres",
+            "event": "Men's 100 metres",
+            "games": "2004 Summer",
+            "venue": "Athens Olympic Stadium",
+            "date": "21–22 August",
+            "competitors": "82",
+            "nations": "62",
+            "gold": "Justin Gatlin",
+            "silver": "Francis Obikwelu",
+            "bronze": "Maurice Greene"
+          },
+          {
+            "doc_id": "Q1439338",
+            "title": "Athletics at the 2004 Summer Olympics – Women's 200 metres",
+            "event": "Women's 200 metres",
+            "games": "2004 Summer",
+            "venue": "Athens Olympic Stadium",
+            "date": "23–25 August",
+            "competitors": "44",
+            "nations": "32",
+            "gold": "Veronica Campbell",
+            "silver": "Allyson Felix",
+            "bronze": "Debbie Ferguson"
+          },
+          {
+            "doc_id": "Q1439249",
+            "title": "Athletics at the 2004 Summer Olympics – Men's 110 metres hurdles",
+            "event": "Men's 110 metres hurdles",
+            "games": "2004 Summer",
+            "venue": "Athens Olympic Stadium",
+            "date": null,
+            "competitors": "47",
+            "nations": "34",
+            "gold": "Liu Xiang",
+            "silver": "Terrence Trammell",
+            "bronze": "Anier García"
+          },
+          {
+            "doc_id": "Q936622",
+            "title": "Athletics at the 2004 Summer Olympics – Men's 20 kilometres walk",
+            "event": "Men's 20 kilometres walk",
+            "games": "2004 Summer",
+            "venue": "Athens Olympic Stadium",
+            "date": null,
+            "competitors": "48",
+            "nations": "28",
+            "gold": "Ivano Brugnetti",
+            "silver": "Paquillo Fernández",
+            "bronze": "Nathan Deakes"
+          },
+          {
+            "doc_id": "Q900405",
+            "title": "Athletics at the 2004 Summer Olympics – Men's 50 kilometres walk",
+            "event": "Men's 50 kilometres walk",
+            "games": "2004 Summer",
+            "venue": "Athens Olympic Stadium",
+            "date": null,
+            "competitors": "54",
+            "nations": "29",
+            "gold": "Robert Korzeniowski",
+            "silver": "Denis Nizhegorodov",
+            "bronze": "Aleksey Voyevodin"
+          },
+          {
+            "doc_id": "Q2313511",
+            "title": "Athletics at the 2004 Summer Olympics – Women's 400 metres",
+            "event": "Women's 400 metres",
+            "games": "2004 Summer",
+            "venue": "Athens Olympic Stadium",
+            "date": null,
+            "competitors": "42",
+            "nations": "31",
+            "gold": "Tonique Williams-Darling",
+            "silver": "Ana Guevara",
+            "bronze": "Natalya Antyukh"
+          },
+          {
+            "doc_id": "Q2313481",
+            "title": "Athletics at the 2004 Summer Olympics – Women's 100 metres",
+            "event": "Women's 100 metres",
+            "games": "2004 Summer",
+            "venue": "Athens Olympic Stadium",
+            "date": "20–21 August",
+            "competitors": "63",
+            "nations": "56",
+            "gold": "Yulia Nestsiarenka",
+            "silver": "Lauryn Williams",
+            "bronze": "Veronica Campbell"
+          },
+          {
+            "doc_id": "Q2318836",
+            "title": "Athletics at the 2004 Summer Olympics – Women's 20 kilometres walk",
+            "event": "Women's 20 kilometres walk",
+            "games": "2004 Summer",
+            "venue": "Athens Olympic Stadium",
+            "date": null,
+            "competitors": "57",
+            "nations": "35",
+            "gold": "Athanasia Tsoumeleka",
+            "silver": "Olimpiada Ivanova",
+            "bronze": "Jane Saville"
+          },
+          {
+            "doc_id": "Q2463752",
+            "title": "Athletics at the 2004 Summer Olympics – Men's 400 metres",
+            "event": "Men's 400 metres",
+            "games": "2004 Summer",
+            "venue": "Athens Olympic Stadium",
+            "date": null,
+            "competitors": "62",
+            "nations": "48",
+            "gold": "Jeremy Wariner",
+            "silver": "Otis Harris",
+            "bronze": "Derrick Brew"
+          },
+          {
+            "doc_id": "Q2318914",
+            "title": "Athletics at the 2004 Summer Olympics – Women's hammer throw",
+            "event": "Women's hammer throw",
+            "games": "2004 Summer",
+            "venue": "Olympic Stadium",
+            "date": null,
+            "competitors": "48",
+            "nations": "27",
+            "gold": "Olga Kuzenkova",
+            "silver": "Yipsi Moreno",
+            "bronze": "Yunaika Crawford"
+          },
+          {
+            "doc_id": "Q3628754",
+            "title": "Athletics at the 2004 Summer Olympics – Men's 4 × 100 metres relay",
+            "event": "Men's 4 × 100 metres relay",
+            "games": "2004 Summer",
+            "venue": "Athens Olympic Stadium",
+            "date": null,
+            "competitors": "65",
+            "nations": "16",
+            "gold": "Jason GardenerDarren CampbellMarlon DevonishMark Lewis-Francis",
+            "silver": "Shawn CrawfordJustin GatlinCoby MillerMaurice GreeneDarvis Patton* * only competed inthe preliminary heats.",
+            "bronze": "Olusoji FasubaUchenna EmedoluAaron EgbeleDeji Aliu"
+          },
+          {
+            "doc_id": "Q2313564",
+            "title": "Athletics at the 2004 Summer Olympics – Men's 200 metres",
+            "event": "Men's 200 metres",
+            "games": "2004 Summer",
+            "venue": "Athens Olympic Stadium",
+            "date": null,
+            "competitors": "54",
+            "nations": "41",
+            "gold": "Shawn Crawford",
+            "silver": "Bernard Williams",
+            "bronze": "Justin Gatlin"
+          },
+          {
+            "doc_id": "Q2313552",
+            "title": "Athletics at the 2004 Summer Olympics – Women's 1500 metres",
+            "event": "Women's 1500 metres",
+            "games": "2004 Summer",
+            "venue": "Athens Olympic Stadium",
+            "date": null,
+            "competitors": "48",
+            "nations": "25",
+            "gold": "Kelly Holmes",
+            "silver": "Tatyana Tomashova",
+            "bronze": "Maria Cioncan"
+          },
+          {
+            "doc_id": "Q2312939",
+            "title": "Athletics at the 2004 Summer Olympics – Men's 800 metres",
+            "event": "Men's 800 metres",
+            "games": "2004 Summer",
+            "venue": "Athens Olympic Stadium",
+            "date": null,
+            "competitors": "72",
+            "nations": "58",
+            "gold": "Yuriy Borzakovskiy",
+            "silver": "Mbulaeni Mulaudzi",
+            "bronze": "Wilson Kipketer"
+          },
+          {
+            "doc_id": "Q2557129",
+            "title": "Athletics at the 2004 Summer Olympics – Women's 800 metres",
+            "event": "Women's 800 metres",
+            "games": "2004 Summer",
+            "venue": "Athens Olympic Stadium",
+            "date": null,
+            "competitors": "43",
+            "nations": "36",
+            "gold": "Kelly Holmes",
+            "silver": "Hasna Benhassi",
+            "bronze": "Jolanda Čeplak"
+          },
+          {
+            "doc_id": "Q2443986",
+            "title": "Athletics at the 2004 Summer Olympics – Men's marathon",
+            "event": "Men's marathon",
+            "games": "2004 Summer",
+            "venue": "Marathon to Athens, Greece",
+            "date": "29 August",
+            "competitors": "101",
+            "nations": "59",
+            "gold": "Stefano Baldini",
+            "silver": "Meb Keflezighi",
+            "bronze": "Vanderlei de Lima"
+          },
+          {
+            "doc_id": "Q2552272",
+            "title": "Athletics at the 2004 Summer Olympics – Women's marathon",
+            "event": "Women's marathon",
+            "games": "2004 Summer",
+            "venue": "Marathon to Athens, Greece",
+            "date": null,
+            "competitors": "82",
+            "nations": "46",
+            "gold": "Mizuki Noguchi",
+            "silver": "Catherine Ndereba",
+            "bronze": "Deena Kastor"
+          }
+        ]
+      }
+    },
+    {
+      "qid": "pub-046",
+      "question": "How many nations competed in Cross-country skiing at the 2010 Winter Olympics – Men's 15 kilometre freestyle?",
+      "qtype": "lookup",
+      "graphrag_answer": "50",
+      "gold_answer": [
+        "50"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "50",
+        "answer_type": "nations",
+        "title": "Cross-country skiing at the 2010 Winter Olympics – Men's 15 kilometre freestyle",
+        "event": "Men's 15 kilometre freestyle",
+        "games": "2010 Winter",
+        "venue": "Whistler Olympic Park",
+        "date": null,
+        "competitors": "96",
+        "nations": "50",
+        "gold": "Dario Cologna",
+        "doc_id": "Q384953"
+      }
+    },
+    {
+      "qid": "pub-047",
+      "question": "How many nations competed in Athletics at the 1992 Summer Olympics – Men's 3000 metres steeplechase?",
+      "qtype": "lookup",
+      "graphrag_answer": "24",
+      "gold_answer": [
+        "24"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "24",
+        "answer_type": "nations",
+        "title": "Athletics at the 1992 Summer Olympics – Men's 3000 metres steeplechase",
+        "event": "Men's 3000 metres steeplechase",
+        "games": "1992 Summer",
+        "venue": "Estadi Olímpic de Montjuïc",
+        "date": null,
+        "competitors": "32",
+        "nations": "24",
+        "gold": "Matthew Birir",
+        "doc_id": "Q1409048"
+      }
+    },
+    {
+      "qid": "pub-048",
+      "question": "Who won the gold medal in the men's 68 kg taekwondo event at the Summer Olympics held immediately before 2016?",
+      "qtype": "temporal",
+      "graphrag_answer": "Servet Tazegül",
+      "gold_answer": [
+        "Servet Tazegül"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Servet Tazegül",
+        "answer_type": "gold",
+        "title": "Taekwondo at the 2012 Summer Olympics – Men's 68 kg",
+        "event": "Men's 68kg",
+        "games": "2012 Summer",
+        "venue": "ExCeL Exhibition Centre",
+        "date": "9 August",
+        "competitors": "16",
+        "nations": "16",
+        "gold": "Servet Tazegül",
+        "doc_id": "Q2142977"
+      }
+    },
+    {
+      "qid": "pub-049",
+      "question": "Who won the gold medal in the men's pursuit biathlon event at the Winter Olympics held immediately before 2022?",
+      "qtype": "temporal",
+      "graphrag_answer": "Martin Fourcade",
+      "gold_answer": [
+        "Martin Fourcade"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Martin Fourcade",
+        "answer_type": "gold",
+        "title": "Biathlon at the 2018 Winter Olympics – Men's pursuit",
+        "event": "Men's pursuit",
+        "games": "2018 Winter",
+        "venue": "Alpensia Biathlon Centre in Pyeongchang, South Korea",
+        "date": "12 February 2018",
+        "competitors": "60",
+        "nations": "25",
+        "gold": "Martin Fourcade",
+        "doc_id": "Q47155371"
+      }
+    },
+    {
+      "qid": "pub-050",
+      "question": "Who won the gold medal in the event held at Adler Arena Skating Center on 11 February 2014?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Lee Sang-hwa",
+      "gold_answer": [
+        "Lee Sang-hwa"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Lee Sang-hwa",
+        "answer_type": "gold",
+        "title": "Speed skating at the 2014 Winter Olympics – Women's 500 metres",
+        "event": "Women's 500 metres",
+        "games": "2014 Winter",
+        "venue": "Adler Arena Skating Center",
+        "date": "11 February 2014",
+        "competitors": "35",
+        "nations": "12",
+        "gold": "Lee Sang-hwa",
+        "doc_id": "Q15056224"
+      }
+    },
+    {
+      "qid": "pub-051",
+      "question": "According to the provided corpus, how many canoeing events at the 2012 Summer Olympics had more than 25 competitors?",
+      "qtype": "aggregation",
+      "graphrag_answer": "6",
+      "gold_answer": [
+        "6"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "aggregation",
+        "answer": "6",
+        "count": 6,
+        "records": [
+          {
+            "doc_id": "Q2936542",
+            "title": "Canoeing at the 2012 Summer Olympics – Men's K-2 200 metres",
+            "event": "Men's canoe sprint K-2 200 metres",
+            "games": "2012 Summer",
+            "venue": "Eton Dorney",
+            "date": "10 to 11 August",
+            "competitors": "28",
+            "nations": "14",
+            "gold": "Yury PostrigayAlexander Dyachenko",
+            "silver": "Raman PiatrushenkaVadzim Makhneu",
+            "bronze": "Liam HeathJon Schofield"
+          },
+          {
+            "doc_id": "Q1042705",
+            "title": "Canoeing at the 2012 Summer Olympics – Women's K-4 500 metres",
+            "event": "Women's canoe sprint K-4 500 metres",
+            "games": "2012 Summer",
+            "venue": "Eton Dorney",
+            "date": "6 to 8 August",
+            "competitors": "44",
+            "nations": "11",
+            "gold": "Gabriella SzabóDanuta KozákKatalin KovácsKrisztina Fazekas Zur",
+            "silver": "Carolin LeonhardtFranziska WeberKatrin Wagner-AugustinTina Dietze",
+            "bronze": "Iryna PamialovaNadzeya PapokVolha KhudzenkaMaryna Pautaran"
+          },
+          {
+            "doc_id": "Q539696",
+            "title": "Canoeing at the 2012 Summer Olympics – Men's K-4 1000 metres",
+            "event": "Men's canoe sprint K-4 1,000 metres",
+            "games": "2012 Summer",
+            "venue": "Eton Dorney",
+            "date": "7 to 9 August",
+            "competitors": "40",
+            "nations": "10",
+            "gold": "Tate SmithDave SmithMurray StewartJacob Clear",
+            "silver": "Zoltán KammererDávid TóthTamás KulifaiDániel Pauman",
+            "bronze": "Daniel HavelLukáš TrefilJosef DostálJan Štěrba"
+          },
+          {
+            "doc_id": "Q919242",
+            "title": "Canoeing at the 2012 Summer Olympics – Women's K-1 200 metres",
+            "event": "Women's canoe sprint K-1 200 metres",
+            "games": "2012 Summer",
+            "venue": "Eton Dorney",
+            "date": "10 to 11 August",
+            "competitors": "29",
+            "nations": "29",
+            "gold": "Lisa Carrington",
+            "silver": "Inna Osypenko",
+            "bronze": "Nataša Dušev-Janić"
+          },
+          {
+            "doc_id": "Q2352927",
+            "title": "Canoeing at the 2012 Summer Olympics – Men's slalom C-2",
+            "event": "Men's canoe slalom C-2",
+            "games": "2012 Summer",
+            "venue": "Lee Valley White Water Centre",
+            "date": "30 July – 2 August",
+            "competitors": "28",
+            "nations": "12",
+            "gold": "Tim BaillieEtienne Stott",
+            "silver": "David FlorenceRichard Hounslow",
+            "bronze": "Pavol HochschornerPeter Hochschorner"
+          },
+          {
+            "doc_id": "Q919261",
+            "title": "Canoeing at the 2012 Summer Olympics – Women's K-2 500 metres",
+            "event": "Women's K-2 500 metres",
+            "games": "2012 Summer",
+            "venue": "Eton Dorney",
+            "date": "7 to 9 August",
+            "competitors": "34",
+            "nations": "17",
+            "gold": "Franziska WeberTina Dietze",
+            "silver": "Katalin KovácsNatasa Dusev-Janics",
+            "bronze": "Karolina NajaBeata Mikołajczyk"
+          }
+        ]
+      }
+    },
+    {
+      "qid": "pub-052",
+      "question": "How many nations competed in Biathlon at the 2022 Winter Olympics – Women's relay?",
+      "qtype": "lookup",
+      "graphrag_answer": "20",
+      "gold_answer": [
+        "20"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "20",
+        "answer_type": "nations",
+        "title": "Biathlon at the 2022 Winter Olympics – Women's relay",
+        "event": "Women’s relay",
+        "games": "2022 Winter",
+        "venue": "Hualindong Ski Resort",
+        "date": "16 February 2022",
+        "competitors": "80",
+        "nations": "20",
+        "gold": "Linn PerssonMona BrorssonHanna ÖbergElvira Öberg",
+        "doc_id": "Q107861706"
+      }
+    },
+    {
+      "qid": "pub-053",
+      "question": "According to the provided corpus, which shooting event at the 2016 Summer Olympics had the highest number of competitors?",
+      "qtype": "superlative",
+      "graphrag_answer": "Shooting at the 2016 Summer Olympics – Women's 10 metre air rifle",
+      "gold_answer": [
+        "Shooting at the 2016 Summer Olympics – Women's 10 metre air rifle"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "superlative",
+        "answer": "Shooting at the 2016 Summer Olympics – Women's 10 metre air rifle",
+        "title": "Shooting at the 2016 Summer Olympics – Women's 10 metre air rifle",
+        "event": "Women's 10 metre air rifle",
+        "games": "2016 Summer",
+        "venue": "National Shooting Center",
+        "date": "6 August 2016",
+        "competitors": "51",
+        "nations": "37",
+        "gold": "Virginia Thrasher",
+        "doc_id": "Q26218171"
+      }
+    },
+    {
+      "qid": "pub-054",
+      "question": "How many nations competed in Marathon swimming at the 2016 Summer Olympics – Women's 10 kilometre?",
+      "qtype": "lookup",
+      "graphrag_answer": "24",
+      "gold_answer": [
+        "24"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "24",
+        "answer_type": "nations",
+        "title": "Marathon swimming at the 2016 Summer Olympics – Women's 10 kilometre",
+        "event": "Women's marathon 10 kilometre",
+        "games": "2016 Summer",
+        "venue": "Fort Copacabana, Rio de Janeiro",
+        "date": null,
+        "competitors": "26",
+        "nations": "24",
+        "gold": "Sharon van Rouwendaal",
+        "doc_id": "Q25991470"
+      }
+    },
+    {
+      "qid": "pub-055",
+      "question": "Who won the gold medal in the men's 80 kg taekwondo event at the Summer Olympics held immediately before 2016?",
+      "qtype": "temporal",
+      "graphrag_answer": "Sebastián Crismanich",
+      "gold_answer": [
+        "Sebastián Crismanich"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Sebastián Crismanich",
+        "answer_type": "gold",
+        "title": "Taekwondo at the 2012 Summer Olympics – Men's 80 kg",
+        "event": "Men's 80kg",
+        "games": "2012 Summer",
+        "venue": "ExCeL Exhibition Centre",
+        "date": "10 August",
+        "competitors": "16",
+        "nations": "16",
+        "gold": "Sebastián Crismanich",
+        "doc_id": "Q934172"
+      }
+    },
+    {
+      "qid": "pub-056",
+      "question": "Who won the gold medal in the men's 30 kilometre pursuit cross-country skiing event at the Winter Olympics held immediately before 2010?",
+      "qtype": "temporal",
+      "graphrag_answer": "Yevgeny Dementyev",
+      "gold_answer": [
+        "Yevgeny Dementyev"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Yevgeny Dementyev",
+        "answer_type": "gold",
+        "title": "Cross-country skiing at the 2006 Winter Olympics – Men's 30 kilometre pursuit",
+        "event": "Men's 30 kilometre pursuit",
+        "games": "2006 Winter",
+        "venue": "Pragelato",
+        "date": null,
+        "competitors": "76",
+        "nations": "27",
+        "gold": "Yevgeny Dementyev",
+        "doc_id": "Q824803"
+      }
+    },
+    {
+      "qid": "pub-057",
+      "question": "Who won the gold medal in the women's 200 metres athletics event at the Summer Olympics held immediately before 2016?",
+      "qtype": "temporal",
+      "graphrag_answer": "Allyson Felix",
+      "gold_answer": [
+        "Allyson Felix"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Allyson Felix",
+        "answer_type": "gold",
+        "title": "Athletics at the 2012 Summer Olympics – Women's 200 metres",
+        "event": "Women's 200 metres",
+        "games": "2012 Summer",
+        "venue": "Olympic Stadium",
+        "date": "6–8 August",
+        "competitors": "54",
+        "nations": "39",
+        "gold": "Allyson Felix",
+        "doc_id": "Q1798867"
+      }
+    },
+    {
+      "qid": "pub-058",
+      "question": "According to the provided corpus, how many rowing events at the 1996 Summer Olympics had more than 39 competitors?",
+      "qtype": "aggregation",
+      "graphrag_answer": "5",
+      "gold_answer": [
+        "5"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "aggregation",
+        "answer": "5",
+        "count": 5,
+        "records": [
+          {
+            "doc_id": "Q22964450",
+            "title": "Rowing at the 1996 Summer Olympics – Women's quadruple sculls",
+            "event": "Women's quadruple sculls",
+            "games": "1996 Summer",
+            "venue": null,
+            "date": "22–28 July 1996",
+            "competitors": "40",
+            "nations": "10",
+            "gold": "Katrin RutschowJana SorgersKerstin KöppenKathrin Boron",
+            "silver": "Svitlana MaziyDina MiftakhutdynovaInna FrolovaOlena Ronzhyna",
+            "bronze": "Laryssa BiesenthalDiane O'GradyKathleen HeddleMarnie McBean"
+          },
+          {
+            "doc_id": "Q22964454",
+            "title": "Rowing at the 1996 Summer Olympics – Women's eight",
+            "event": "Women's eight",
+            "games": "1996 Summer",
+            "venue": null,
+            "date": "22–28 July 1996",
+            "competitors": "72",
+            "nations": "8",
+            "gold": "Liliana GafencuVeronica CochelaElena GeorgescuAnca TănaseDoina SpîrcuMarioara PopescuIoana OlteanuElisabeta LipăDoina Ignat",
+            "silver": "Anna van der KampTosha TsangLesley ThompsonEmma RobinsonJessica MonroeHeather McDermidMaria MaunderTheresa LukeAlison Korn",
+            "bronze": "Yelena MikulichMarina ZnakNataliya VolchekNataliya StasyukTamara DavydenkoValentina SkrabatunNataliya LavrinenkoYaroslava PavlovichAleksandra Pankina"
+          },
+          {
+            "doc_id": "Q22964458",
+            "title": "Rowing at the 1996 Summer Olympics – Men's quadruple sculls",
+            "event": "Men's quadruple sculls",
+            "games": "1996 Summer",
+            "venue": "Lake Lanier Olympic Center",
+            "date": "21–28 July 1996",
+            "competitors": "56",
+            "nations": "14",
+            "gold": "André SteinerAndreas HajekStephan VolkertAndré Willms",
+            "silver": "Tim YoungBrian JamiesonEric MuellerJason Gailes",
+            "bronze": "Janusz HookerDuncan FreeRonald SnookBo Hanson"
+          },
+          {
+            "doc_id": "Q22964457",
+            "title": "Rowing at the 1996 Summer Olympics – Men's lightweight coxless four",
+            "event": "Men's lightweight coxless four",
+            "games": "1996 Summer",
+            "venue": null,
+            "date": "22–28 July 1996",
+            "competitors": "68",
+            "nations": "17",
+            "gold": "Victor FeddersenNiels HenriksenThomas PoulsenEskild Ebbesen",
+            "silver": "Brian PeakerJeffrey LayDave BoyesGavin Hassett",
+            "bronze": "Marc SchneiderJeff PfaendtnerDavid CollinsWilliam Carlucci"
+          },
+          {
+            "doc_id": "Q22964456",
+            "title": "Rowing at the 1996 Summer Olympics – Men's coxless four",
+            "event": "Men's coxless four",
+            "games": "1996 Summer",
+            "venue": null,
+            "date": "21–27 July 1996",
+            "competitors": "56",
+            "nations": "14",
+            "gold": "Nicholas GreenDrew GinnJames TomkinsMike McKay",
+            "silver": "Bertrand VectenOlivier MonceletDaniel FauchéGilles Bosquet",
+            "bronze": "Gregory SearleJonathan William SearleRupert John ObholzerTim Foster"
+          }
+        ]
+      }
+    },
+    {
+      "qid": "pub-059",
+      "question": "Who won the gold medal in the women's sprint biathlon event at the Winter Olympics held immediately before 2022?",
+      "qtype": "temporal",
+      "graphrag_answer": "Laura Dahlmeier",
+      "gold_answer": [
+        "Laura Dahlmeier"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Laura Dahlmeier",
+        "answer_type": "gold",
+        "title": "Biathlon at the 2018 Winter Olympics – Women's sprint",
+        "event": "Women's sprint",
+        "games": "2018 Winter",
+        "venue": "Alpensia Biathlon Centre in Pyeongchang, South Korea",
+        "date": "10 February 2018",
+        "competitors": "87",
+        "nations": "27",
+        "gold": "Laura Dahlmeier",
+        "doc_id": "Q47091419"
+      }
+    },
+    {
+      "qid": "pub-060",
+      "question": "Who won the gold medal in the event held at ExCeL Exhibition Centre on 30 July at the 2012 Summer Olympics?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Yana Shemyakina",
+      "gold_answer": [
+        "Yana Shemyakina"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Yana Shemyakina",
+        "answer_type": "gold",
+        "title": "Fencing at the 2012 Summer Olympics – Women's épée",
+        "event": "Women's épée",
+        "games": "2012 Summer",
+        "venue": "ExCeL Exhibition Centre",
+        "date": "30 July",
+        "competitors": "37",
+        "nations": "20",
+        "gold": "Yana Shemyakina",
+        "doc_id": "Q1156695"
+      }
+    },
+    {
+      "qid": "pub-061",
+      "question": "How many nations competed in Boxing at the 1988 Summer Olympics – Light flyweight?",
+      "qtype": "lookup",
+      "graphrag_answer": "34",
+      "gold_answer": [
+        "34"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "34",
+        "answer_type": "nations",
+        "title": "Boxing at the 1988 Summer Olympics – Light flyweight",
+        "event": "Light flyweight boxing",
+        "games": "1988 Summer",
+        "venue": "Jamsil Students' Gymnasium",
+        "date": null,
+        "competitors": "34",
+        "nations": "34",
+        "gold": "Ivailo Marinov",
+        "doc_id": "Q10572416"
+      }
+    },
+    {
+      "qid": "pub-062",
+      "question": "Who won the gold medal in the women's 10,000 metres athletics event at the Summer Olympics held immediately before 2016?",
+      "qtype": "temporal",
+      "graphrag_answer": "Tirunesh Dibaba",
+      "gold_answer": [
+        "Tirunesh Dibaba"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Tirunesh Dibaba",
+        "answer_type": "gold",
+        "title": "Athletics at the 2012 Summer Olympics – Women's 10,000 metres",
+        "event": "Women's 10,000 metres",
+        "games": "2012 Summer",
+        "venue": "Olympic Stadium",
+        "date": "3 August",
+        "competitors": "22",
+        "nations": "13",
+        "gold": "Tirunesh Dibaba",
+        "doc_id": "Q1799275"
+      }
+    },
+    {
+      "qid": "pub-063",
+      "question": "How many nations competed in Swimming at the 1988 Summer Olympics – Men's 200 metre freestyle?",
+      "qtype": "lookup",
+      "graphrag_answer": "41",
+      "gold_answer": [
+        "41"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "41",
+        "answer_type": "nations",
+        "title": "Swimming at the 1988 Summer Olympics – Men's 200 metre freestyle",
+        "event": "Men's 200 metre freestyle",
+        "games": "1988 Summer",
+        "venue": "Jamsil Indoor Swimming Pool",
+        "date": null,
+        "competitors": "63",
+        "nations": "41",
+        "gold": "Duncan Armstrong",
+        "doc_id": "Q7656692"
+      }
+    },
+    {
+      "qid": "pub-064",
+      "question": "Who won the gold medal in the event held at ANZ Stadium on 22 September 2000 (heats)25 September 2000 (final)?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Gabriela Szabo",
+      "gold_answer": [
+        "Gabriela Szabo"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Gabriela Szabo",
+        "answer_type": "gold",
+        "title": "Athletics at the 2000 Summer Olympics – Women's 5000 metres",
+        "event": "Women's 5000 metres",
+        "games": "2000 Summer",
+        "venue": "ANZ Stadium",
+        "date": "22 September 2000 (heats)25 September 2000 (final)",
+        "competitors": "49",
+        "nations": "31",
+        "gold": "Gabriela Szabo",
+        "doc_id": "Q3628769"
+      }
+    },
+    {
+      "qid": "pub-065",
+      "question": "According to the provided corpus, how many biathlon events at the 2014 Winter Olympics had more than 68 competitors?",
+      "qtype": "aggregation",
+      "graphrag_answer": "5",
+      "gold_answer": [
+        "5"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "aggregation",
+        "answer": "5",
+        "count": 5,
+        "records": [
+          {
+            "doc_id": "Q14643126",
+            "title": "Biathlon at the 2014 Winter Olympics – Men's sprint",
+            "event": "Men's sprint",
+            "games": "2014 Winter",
+            "venue": "Laura Biathlon & Ski Complex",
+            "date": "8 February 2014",
+            "competitors": "87",
+            "nations": "31",
+            "gold": "Ole Einar Bjørndalen",
+            "silver": "Dominik Landertinger",
+            "bronze": "Jaroslav Soukup"
+          },
+          {
+            "doc_id": "Q15021060",
+            "title": "Biathlon at the 2014 Winter Olympics – Men's individual",
+            "event": "Men's individual",
+            "games": "2014 Winter",
+            "venue": "Laura Biathlon & Ski Complex",
+            "date": "13 February 2014",
+            "competitors": "89",
+            "nations": "31",
+            "gold": "Martin Fourcade",
+            "silver": "Erik Lesser",
+            "bronze": "Evgeniy Garanichev"
+          },
+          {
+            "doc_id": "Q15052019",
+            "title": "Biathlon at the 2014 Winter Olympics – Women's individual",
+            "event": "Women's individual",
+            "games": "2014 Winter",
+            "venue": "Laura Biathlon & Ski Complex",
+            "date": "14 February 2014",
+            "competitors": "82",
+            "nations": "32",
+            "gold": "Darya Domracheva",
+            "silver": "Selina Gasparin",
+            "bronze": "Nadezhda Skardino"
+          },
+          {
+            "doc_id": "Q15052014",
+            "title": "Biathlon at the 2014 Winter Olympics – Men's relay",
+            "event": "Men's relay",
+            "games": "2014 Winter",
+            "venue": "Laura Biathlon & Ski Complex",
+            "date": "22 February 2014",
+            "competitors": "76",
+            "nations": "19",
+            "gold": "Erik LesserDaniel BöhmArnd PeifferSimon Schempp",
+            "silver": "Christoph SumannDaniel MesotitschSimon EderDominik Landertinger",
+            "bronze": "Tarjei BøJohannes Thingnes BøOle Einar BjørndalenEmil Hegle Svendsen"
+          },
+          {
+            "doc_id": "Q14643284",
+            "title": "Biathlon at the 2014 Winter Olympics – Women's sprint",
+            "event": "Women's sprint",
+            "games": "2014 Winter",
+            "venue": "Laura Biathlon & Ski Complex",
+            "date": "9 February 2014",
+            "competitors": "84",
+            "nations": "33",
+            "gold": "Anastasiya Kuzmina",
+            "silver": "Olga Vilukhina",
+            "bronze": "Vita Semerenko"
+          }
+        ]
+      }
+    },
+    {
+      "qid": "pub-066",
+      "question": "According to the provided corpus, which weightlifting event at the 1992 Summer Olympics had the highest number of competitors?",
+      "qtype": "superlative",
+      "graphrag_answer": "Weightlifting at the 1992 Summer Olympics – Men's 75 kg",
+      "gold_answer": [
+        "Weightlifting at the 1992 Summer Olympics – Men's 75 kg"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "superlative",
+        "answer": "Weightlifting at the 1992 Summer Olympics – Men's 75 kg",
+        "title": "Weightlifting at the 1992 Summer Olympics – Men's 75 kg",
+        "event": "Men's 75 kg",
+        "games": "1992 Summer",
+        "venue": "Pavelló de l'Espanya Industrial",
+        "date": "30 July 1992",
+        "competitors": "34",
+        "nations": "27",
+        "gold": "Tudor Casapu",
+        "doc_id": "Q7979975"
+      }
+    },
+    {
+      "qid": "pub-067",
+      "question": "Who won the gold medal in the event held at North Greenwich Arena on 4 August at the 2012 Summer Olympics?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Rosannagh MacLennan",
+      "gold_answer": [
+        "Rosannagh MacLennan"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Rosannagh MacLennan",
+        "answer_type": "gold",
+        "title": "Gymnastics at the 2012 Summer Olympics – Women's trampoline",
+        "event": "Women's trampoline",
+        "games": "2012 Summer",
+        "venue": "North Greenwich Arena",
+        "date": "4 August",
+        "competitors": "16",
+        "nations": "14",
+        "gold": "Rosannagh MacLennan",
+        "doc_id": "Q284413"
+      }
+    },
+    {
+      "qid": "pub-068",
+      "question": "How many nations competed in Cycling at the 2012 Summer Olympics – Women's cross-country?",
+      "qtype": "lookup",
+      "graphrag_answer": "24",
+      "gold_answer": [
+        "24"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "24",
+        "answer_type": "nations",
+        "title": "Cycling at the 2012 Summer Olympics – Women's cross-country",
+        "event": "Women's cross-country cycling",
+        "games": "2012 Summer",
+        "venue": "Hadleigh Farm",
+        "date": "11 August 2012",
+        "competitors": "30",
+        "nations": "24",
+        "gold": "Julie Bresset",
+        "doc_id": "Q2269155"
+      }
+    },
+    {
+      "qid": "pub-069",
+      "question": "According to the provided corpus, how many fencing events at the 2000 Summer Olympics had more than 39 competitors?",
+      "qtype": "aggregation",
+      "graphrag_answer": "3",
+      "gold_answer": [
+        "3"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "aggregation",
+        "answer": "3",
+        "count": 3,
+        "records": [
+          {
+            "doc_id": "Q632742",
+            "title": "Fencing at the 2000 Summer Olympics – Men's épée",
+            "event": "Men's épée",
+            "games": "2000 Summer",
+            "venue": "Sydney Exhibition Centre",
+            "date": null,
+            "competitors": "42",
+            "nations": "22",
+            "gold": "Pavel Kolobkov",
+            "silver": "Hugues Obry",
+            "bronze": "Lee Sang-ki"
+          },
+          {
+            "doc_id": "Q632472",
+            "title": "Fencing at the 2000 Summer Olympics – Men's foil",
+            "event": "Men's foil",
+            "games": "2000 Summer",
+            "venue": "Sydney Exhibition Centre",
+            "date": "20 September 2000",
+            "competitors": "40",
+            "nations": "22",
+            "gold": "Kim Young-ho",
+            "silver": "Ralf Bißdorf",
+            "bronze": "Dmitry Shevchenko"
+          },
+          {
+            "doc_id": "Q5443156",
+            "title": "Fencing at the 2000 Summer Olympics – Women's foil",
+            "event": "Women's foil",
+            "games": "2000 Summer",
+            "venue": "Sydney Exhibition Centre",
+            "date": null,
+            "competitors": "40",
+            "nations": "21",
+            "gold": "Valentina Vezzali",
+            "silver": "Rita König",
+            "bronze": "Giovanna Trillini"
+          }
+        ]
+      }
+    },
+    {
+      "qid": "pub-070",
+      "question": "According to the provided corpus, how many speed skating events at the 2010 Winter Olympics had more than 36 competitors?",
+      "qtype": "aggregation",
+      "graphrag_answer": "3",
+      "gold_answer": [
+        "3"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "aggregation",
+        "answer": "3",
+        "count": 3,
+        "records": [
+          {
+            "doc_id": "Q782429",
+            "title": "Speed skating at the 2010 Winter Olympics – Men's 1500 metres",
+            "event": "Men's 1500 metres",
+            "games": "2010 Winter",
+            "venue": "Richmond Olympic Oval",
+            "date": "20 February 2010",
+            "competitors": "37",
+            "nations": "14",
+            "gold": "Mark Tuitert",
+            "silver": "Shani Davis",
+            "bronze": "Håvard Bøkko"
+          },
+          {
+            "doc_id": "Q848696",
+            "title": "Speed skating at the 2010 Winter Olympics – Men's 1000 metres",
+            "event": "Men's 1000 metres",
+            "games": "2010 Winter",
+            "venue": "Richmond Olympic Oval",
+            "date": "17 February 2010",
+            "competitors": "38",
+            "nations": "13",
+            "gold": "Shani Davis",
+            "silver": "Mo Tae-bum",
+            "bronze": "Chad Hedrick"
+          },
+          {
+            "doc_id": "Q841942",
+            "title": "Speed skating at the 2010 Winter Olympics – Men's 500 metres",
+            "event": "Men's 500 metres",
+            "games": "2010 Winter",
+            "venue": "Richmond Olympic Oval",
+            "date": "15 February 2010",
+            "competitors": "39",
+            "nations": "12",
+            "gold": "Mo Tae-bum",
+            "silver": "Keiichiro Nagashima",
+            "bronze": "Joji Kato"
+          }
+        ]
+      }
+    },
+    {
+      "qid": "pub-071",
+      "question": "How many nations competed in Biathlon at the 2018 Winter Olympics – Women's pursuit?",
+      "qtype": "lookup",
+      "graphrag_answer": "24",
+      "gold_answer": [
+        "24"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "24",
+        "answer_type": "nations",
+        "title": "Biathlon at the 2018 Winter Olympics – Women's pursuit",
+        "event": "Women's pursuit",
+        "games": "2018 Winter",
+        "venue": "Alpensia Biathlon Centre in Pyeongchang, South Korea",
+        "date": "12 February 2018",
+        "competitors": "58",
+        "nations": "24",
+        "gold": "Laura Dahlmeier",
+        "doc_id": "Q47155365"
+      }
+    },
+    {
+      "qid": "pub-072",
+      "question": "Who won the gold medal in the women's 500 metres speed skating event at the Winter Olympics held immediately before 2014?",
+      "qtype": "temporal",
+      "graphrag_answer": "Lee Sang-hwa",
+      "gold_answer": [
+        "Lee Sang-hwa"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Lee Sang-hwa",
+        "answer_type": "gold",
+        "title": "Speed skating at the 2010 Winter Olympics – Women's 500 metres",
+        "event": "Women's 500 metres",
+        "games": "2010 Winter",
+        "venue": "Richmond Olympic Oval",
+        "date": "16 February 2010",
+        "competitors": "36",
+        "nations": "14",
+        "gold": "Lee Sang-hwa",
+        "doc_id": "Q848666"
+      }
+    },
+    {
+      "qid": "pub-073",
+      "question": "Who won the gold medal in the event held at Sydney International Shooting Centre on 21 September 2000 (slow)22 September 2000 (fast)?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Yang Ling",
+      "gold_answer": [
+        "Yang Ling"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Yang Ling",
+        "answer_type": "gold",
+        "title": "Shooting at the 2000 Summer Olympics – Men's 10 metre running target",
+        "event": "Men's 10 metre running target",
+        "games": "2000 Summer",
+        "venue": "Sydney International Shooting Centre",
+        "date": "21 September 2000 (slow)22 September 2000 (fast)",
+        "competitors": "18",
+        "nations": "12",
+        "gold": "Yang Ling",
+        "doc_id": "Q7500807"
+      }
+    },
+    {
+      "qid": "pub-074",
+      "question": "How many nations competed in Cross-country skiing at the 2006 Winter Olympics – Women's 4 × 5 kilometre relay?",
+      "qtype": "lookup",
+      "graphrag_answer": "17",
+      "gold_answer": [
+        "17"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "17",
+        "answer_type": "nations",
+        "title": "Cross-country skiing at the 2006 Winter Olympics – Women's 4 × 5 kilometre relay",
+        "event": "Women's 4 × 5 kilometre relay",
+        "games": "2006 Winter",
+        "venue": "Pragelato",
+        "date": null,
+        "competitors": "68",
+        "nations": "17",
+        "gold": "Natalya Baranova-MasalkinaLarisa KurkinaYuliya ChepalovaYevgeniya Medvedeva-Arbuzova",
+        "doc_id": "Q827175"
+      }
+    },
+    {
+      "qid": "pub-075",
+      "question": "How many nations competed in Swimming at the 2000 Summer Olympics – Men's 1500 metre freestyle?",
+      "qtype": "lookup",
+      "graphrag_answer": "32",
+      "gold_answer": [
+        "32"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "32",
+        "answer_type": "nations",
+        "title": "Swimming at the 2000 Summer Olympics – Men's 1500 metre freestyle",
+        "event": "Men's 1500 metre freestyle",
+        "games": "2000 Summer",
+        "venue": "Sydney International Aquatic Centre",
+        "date": "September 22, 2000 (heats)September 23, 2000 (final)",
+        "competitors": "41",
+        "nations": "32",
+        "gold": "Grant Hackett",
+        "doc_id": "Q3879590"
+      }
+    },
+    {
+      "qid": "pub-076",
+      "question": "Who won the gold medal in the event held at Sestriere on February 24, 2006?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Julia Mancuso",
+      "gold_answer": [
+        "Julia Mancuso"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Julia Mancuso",
+        "answer_type": "gold",
+        "title": "Alpine skiing at the 2006 Winter Olympics – Women's giant slalom",
+        "event": "Women's giant slalom",
+        "games": "2006 Winter",
+        "venue": "Sestriere",
+        "date": "February 24, 2006",
+        "competitors": "65",
+        "nations": "38",
+        "gold": "Julia Mancuso",
+        "doc_id": "Q2574045"
+      }
+    },
+    {
+      "qid": "pub-077",
+      "question": "Who won the gold medal in the event held at Xiaohaituo Bobsleigh and Luge TrackBeijing on 13, 14 February 2022?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Kaillie Humphries",
+      "gold_answer": [
+        "Kaillie Humphries"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Kaillie Humphries",
+        "answer_type": "gold",
+        "title": "Bobsleigh at the 2022 Winter Olympics – Women's monobob",
+        "event": "Bobsleigh women's monobob",
+        "games": "2022 Winter",
+        "venue": "Xiaohaituo Bobsleigh and Luge TrackBeijing",
+        "date": "13, 14 February 2022",
+        "competitors": "20",
+        "nations": "16",
+        "gold": "Kaillie Humphries",
+        "doc_id": "Q110264144"
+      }
+    },
+    {
+      "qid": "pub-078",
+      "question": "According to the provided corpus, how many athletics events at the 1996 Summer Olympics had more than 49 competitors?",
+      "qtype": "aggregation",
+      "graphrag_answer": "7",
+      "gold_answer": [
+        "7"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "aggregation",
+        "answer": "7",
+        "count": 7,
+        "records": [
+          {
+            "doc_id": "Q1426735",
+            "title": "Athletics at the 1996 Summer Olympics – Women's 100 metres",
+            "event": "Women's 100 metres",
+            "games": "1996 Summer",
+            "venue": "Centennial Olympic Stadium",
+            "date": "26 July 1996 (heats, quarter-finals)27 July 1996 (semi-finals, finals)",
+            "competitors": "56",
+            "nations": "42",
+            "gold": "Gail Devers",
+            "silver": "Merlene Ottey",
+            "bronze": "Gwen Torrence"
+          },
+          {
+            "doc_id": "Q1426854",
+            "title": "Athletics at the 1996 Summer Olympics – Men's 800 metres",
+            "event": "Men's 800 metres",
+            "games": "1996 Summer",
+            "venue": "Centennial Olympic Stadium",
+            "date": null,
+            "competitors": "56",
+            "nations": "40",
+            "gold": "Vebjørn Rodal",
+            "silver": "Hezekiél Sepeng",
+            "bronze": "Fred Onyancha"
+          },
+          {
+            "doc_id": "Q776944",
+            "title": "Athletics at the 1996 Summer Olympics – Men's 20 kilometres walk",
+            "event": "Men's 20 kilometres walk",
+            "games": "1996 Summer",
+            "venue": "Centennial Olympic Stadium",
+            "date": "July 26",
+            "competitors": "53",
+            "nations": "32",
+            "gold": "Jefferson Pérez",
+            "silver": "Ilya Markov",
+            "bronze": "Bernardo Segura"
+          },
+          {
+            "doc_id": "Q3628792",
+            "title": "Athletics at the 1996 Summer Olympics – Men's 110 metres hurdles",
+            "event": "Men's 110 metres hurdles",
+            "games": "1996 Summer",
+            "venue": "Centennial Olympic Stadium",
+            "date": "28 & 29 July",
+            "competitors": "62",
+            "nations": "39",
+            "gold": "Allen Johnson",
+            "silver": "Mark Crear",
+            "bronze": "Florian Schwarthoff"
+          },
+          {
+            "doc_id": "Q1423968",
+            "title": "Athletics at the 1996 Summer Olympics – Men's long jump",
+            "event": "Men's long jump",
+            "games": "1996 Summer",
+            "venue": "Centennial Olympic Stadium",
+            "date": "28 July 1996 (qualifying)29 July 1996 (finals)",
+            "competitors": "52",
+            "nations": "40",
+            "gold": "Carl Lewis",
+            "silver": "James Beckford",
+            "bronze": "Joe Greene"
+          },
+          {
+            "doc_id": "Q2308435",
+            "title": "Athletics at the 1996 Summer Olympics – Men's 400 metres",
+            "event": "Men's 400 metres",
+            "games": "1996 Summer",
+            "venue": "Centennial Olympic Stadium",
+            "date": null,
+            "competitors": "62",
+            "nations": "42",
+            "gold": "Michael Johnson",
+            "silver": "Roger Black",
+            "bronze": "Davis Kamoga"
+          },
+          {
+            "doc_id": "Q26860",
+            "title": "Athletics at the 1996 Summer Olympics – Men's 100 metres",
+            "event": "Men's 100 metres",
+            "games": "1996 Summer",
+            "venue": "Centennial Olympic Stadium",
+            "date": "July 26–27",
+            "competitors": "106",
+            "nations": "75",
+            "gold": "Donovan Bailey",
+            "silver": "Frank Fredericks",
+            "bronze": "Ato Boldon"
+          }
+        ]
+      }
+    },
+    {
+      "qid": "pub-079",
+      "question": "Who won the gold medal in the event held at Centennial Parklands, Sydney on 26 September at the 2000 Summer Olympics?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Leontien Zijlaard",
+      "gold_answer": [
+        "Leontien Zijlaard"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Leontien Zijlaard",
+        "answer_type": "gold",
+        "title": "Cycling at the 2000 Summer Olympics – Women's individual road race",
+        "event": "Women's cycling road race",
+        "games": "2000 Summer",
+        "venue": "Centennial Parklands, Sydney",
+        "date": "26 September",
+        "competitors": "57",
+        "nations": "23",
+        "gold": "Leontien Zijlaard",
+        "doc_id": "Q2133123"
+      }
+    },
+    {
+      "qid": "pub-080",
+      "question": "How many nations competed in Beach volleyball at the 2008 Summer Olympics – Women's tournament?",
+      "qtype": "lookup",
+      "graphrag_answer": "17",
+      "gold_answer": [
+        "17"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "17",
+        "answer_type": "nations",
+        "title": "Beach volleyball at the 2008 Summer Olympics – Women's tournament",
+        "event": "Women's beach volleyball",
+        "games": "2008 Summer",
+        "venue": "Beach Volleyball Ground",
+        "date": null,
+        "competitors": "48",
+        "nations": "17",
+        "gold": "Kerri Walsh JenningsMisty May-Treanor",
+        "doc_id": "Q977229"
+      }
+    },
+    {
+      "qid": "pub-081",
+      "question": "Who won the gold medal in the event held at Beijing Shooting Range Hall on August 10, 2008?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Guo Wenjun",
+      "gold_answer": [
+        "Guo Wenjun"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Guo Wenjun",
+        "answer_type": "gold",
+        "title": "Shooting at the 2008 Summer Olympics – Women's 10 metre air pistol",
+        "event": "Women's 10 metre air pistol",
+        "games": "2008 Summer",
+        "venue": "Beijing Shooting Range Hall",
+        "date": "August 10, 2008",
+        "competitors": "44",
+        "nations": "30",
+        "gold": "Guo Wenjun",
+        "doc_id": "Q736527"
+      }
+    },
+    {
+      "qid": "pub-082",
+      "question": "According to the provided corpus, how many swimming events at the 1996 Summer Olympics had more than 42 competitors?",
+      "qtype": "aggregation",
+      "graphrag_answer": "12",
+      "gold_answer": [
+        "12"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "aggregation",
+        "answer": "12",
+        "count": 12,
+        "records": [
+          {
+            "doc_id": "Q3879619",
+            "title": "Swimming at the 1996 Summer Olympics – Women's 200 metre individual medley",
+            "event": "Women's 200 metre individual medley",
+            "games": "1996 Summer",
+            "venue": "Georgia Tech Aquatic Center",
+            "date": "24 July 1996 (heats & finals)",
+            "competitors": "43",
+            "nations": "39",
+            "gold": "Michelle Smith",
+            "silver": "Marianne Limpert",
+            "bronze": "Lin Li"
+          },
+          {
+            "doc_id": "Q3879623",
+            "title": "Swimming at the 1996 Summer Olympics – Men's 200 metre butterfly",
+            "event": "Men's 200 metre butterfly",
+            "games": "1996 Summer",
+            "venue": "Georgia Tech Aquatic Center",
+            "date": "22 July 1996 (heats & finals)",
+            "competitors": "43",
+            "nations": "37",
+            "gold": "Denis Pankratov",
+            "silver": "Tom Malchow",
+            "bronze": "Scott Goodman"
+          },
+          {
+            "doc_id": "Q3879615",
+            "title": "Swimming at the 1996 Summer Olympics – Women's 100 metre freestyle",
+            "event": "Women's 100 metre freestyle",
+            "games": "1996 Summer",
+            "venue": "Georgia Tech Aquatic Center",
+            "date": "20 July 1996 (heats & finals)",
+            "competitors": "48",
+            "nations": "44",
+            "gold": "Le Jingyi",
+            "silver": "Sandra Völker",
+            "bronze": "Angel Martino"
+          },
+          {
+            "doc_id": "Q3879610",
+            "title": "Swimming at the 1996 Summer Olympics – Women's 100 metre butterfly",
+            "event": "Women's 100 metre butterfly",
+            "games": "1996 Summer",
+            "venue": "Georgia Tech Aquatic Center",
+            "date": "21 July 1996 (heats & finals)",
+            "competitors": "44",
+            "nations": "36",
+            "gold": "Amy Van Dyken",
+            "silver": "Liu Limin",
+            "bronze": "Angel Martino"
+          },
+          {
+            "doc_id": "Q3879614",
+            "title": "Swimming at the 1996 Summer Olympics – Men's 100 metre breaststroke",
+            "event": "Men's 100 metre breaststroke",
+            "games": "1996 Summer",
+            "venue": "Georgia Tech Aquatic Center",
+            "date": "20 July 1996 (heats & finals)",
+            "competitors": "45",
+            "nations": "41",
+            "gold": "Frédérik Deburghgraeve",
+            "silver": "Jeremy Linn",
+            "bronze": "Mark Warnecke"
+          },
+          {
+            "doc_id": "Q3879607",
+            "title": "Swimming at the 1996 Summer Olympics – Men's 100 metre backstroke",
+            "event": "Men's 100 metre backstroke",
+            "games": "1996 Summer",
+            "venue": "Georgia Tech Aquatic Center",
+            "date": "23 July 1996 (heats & finals)",
+            "competitors": "52",
+            "nations": "44",
+            "gold": "Jeff Rouse",
+            "silver": "Rodolfo Falcón",
+            "bronze": "Neisser Bent"
+          },
+          {
+            "doc_id": "Q3879611",
+            "title": "Swimming at the 1996 Summer Olympics – Men's 100 metre butterfly",
+            "event": "Men's 100 metre butterfly",
+            "games": "1996 Summer",
+            "venue": "Georgia Tech Aquatic Center",
+            "date": "24 July 1996 (heats & finals)",
+            "competitors": "61",
+            "nations": "56",
+            "gold": "Denis Pankratov",
+            "silver": "Scott Miller",
+            "bronze": "Vladislav Kulikov"
+          },
+          {
+            "doc_id": "Q3879616",
+            "title": "Swimming at the 1996 Summer Olympics – Men's 100 metre freestyle",
+            "event": "Men's 100 metre freestyle",
+            "games": "1996 Summer",
+            "venue": "Georgia Tech Aquatic Center",
+            "date": "22 July 1996 (heats & finals)",
+            "competitors": "61",
+            "nations": "45",
+            "gold": "Alexander Popov",
+            "silver": "Gary Hall, Jr.",
+            "bronze": "Gustavo Borges"
+          },
+          {
+            "doc_id": "Q3879633",
+            "title": "Swimming at the 1996 Summer Olympics – Women's 50 metre freestyle",
+            "event": "Women's 50 metre freestyle",
+            "games": "1996 Summer",
+            "venue": "Georgia Tech Aquatic Center",
+            "date": "26 July 1996 (heats & finals)",
+            "competitors": "56",
+            "nations": "48",
+            "gold": "Amy Van Dyken",
+            "silver": "Le Jingyi",
+            "bronze": "Sandra Völker"
+          },
+          {
+            "doc_id": "Q3879629",
+            "title": "Swimming at the 1996 Summer Olympics – Men's 200 metre freestyle",
+            "event": "Men's 200 metre freestyle",
+            "games": "1996 Summer",
+            "venue": "Georgia Tech Aquatic Center",
+            "date": "20 July 1996 (heats & finals)",
+            "competitors": "43",
+            "nations": "36",
+            "gold": "Danyon Loader",
+            "silver": "Gustavo Borges",
+            "bronze": "Daniel Kowalski"
+          },
+          {
+            "doc_id": "Q3879613",
+            "title": "Swimming at the 1996 Summer Olympics – Women's 100 metre breaststroke",
+            "event": "Women's 100 metre breaststroke",
+            "games": "1996 Summer",
+            "venue": "Georgia Tech Aquatic Center",
+            "date": "21 July 1996 (heats & finals)",
+            "competitors": "46",
+            "nations": "38",
+            "gold": "Penny Heyns",
+            "silver": "Amanda Beard",
+            "bronze": "Samantha Riley"
+          },
+          {
+            "doc_id": "Q3879634",
+            "title": "Swimming at the 1996 Summer Olympics – Men's 50 metre freestyle",
+            "event": "Men's 50 metre freestyle",
+            "games": "1996 Summer",
+            "venue": "Georgia Tech Aquatic Center",
+            "date": "25 July 1996 (heats & finals)",
+            "competitors": "65",
+            "nations": "59",
+            "gold": "Alexander Popov",
+            "silver": "Gary Hall Jr.",
+            "bronze": "Fernando Scherer"
+          }
+        ]
+      }
+    },
+    {
+      "qid": "pub-083",
+      "question": "Who won the gold medal in the event held at Kvitfjell and Hafjell on February 20–21, 1994?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Pernilla Wiberg",
+      "gold_answer": [
+        "Pernilla Wiberg"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Pernilla Wiberg",
+        "answer_type": "gold",
+        "title": "Alpine skiing at the 1994 Winter Olympics – Women's combined",
+        "event": "Women's combined",
+        "games": "1994 Winter",
+        "venue": "Kvitfjell and Hafjell",
+        "date": "February 20–21, 1994",
+        "competitors": "41",
+        "nations": "20",
+        "gold": "Pernilla Wiberg",
+        "doc_id": "Q1222212"
+      }
+    },
+    {
+      "qid": "pub-084",
+      "question": "According to the provided corpus, which fencing event at the 1992 Summer Olympics had the highest number of competitors?",
+      "qtype": "superlative",
+      "graphrag_answer": "Fencing at the 1992 Summer Olympics – Men's épée",
+      "gold_answer": [
+        "Fencing at the 1992 Summer Olympics – Men's épée"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "superlative",
+        "answer": "Fencing at the 1992 Summer Olympics – Men's épée",
+        "title": "Fencing at the 1992 Summer Olympics – Men's épée",
+        "event": "Men's épée",
+        "games": "1992 Summer",
+        "venue": "Palace of Metallurgy",
+        "date": null,
+        "competitors": "70",
+        "nations": "30",
+        "gold": "Éric Srecki",
+        "doc_id": "Q38594"
+      }
+    },
+    {
+      "qid": "pub-085",
+      "question": "According to the provided corpus, which sailing event at the 2008 Summer Olympics had the highest number of competitors?",
+      "qtype": "superlative",
+      "graphrag_answer": "Sailing at the 2008 Summer Olympics – Men's 470",
+      "gold_answer": [
+        "Sailing at the 2008 Summer Olympics – Men's 470"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "superlative",
+        "answer": "Sailing at the 2008 Summer Olympics – Men's 470",
+        "title": "Sailing at the 2008 Summer Olympics – Men's 470",
+        "event": "Men's 470",
+        "games": "2008 Summer",
+        "venue": "Qingdao International Sailing Centre",
+        "date": null,
+        "competitors": "58",
+        "nations": "29",
+        "gold": "Nathan WilmotMalcolm Page",
+        "doc_id": "Q2564420"
+      }
+    },
+    {
+      "qid": "pub-086",
+      "question": "Who won the gold medal in the event held at Richmond Olympic Oval on 17 February 2010?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Shani Davis",
+      "gold_answer": [
+        "Shani Davis"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Shani Davis",
+        "answer_type": "gold",
+        "title": "Speed skating at the 2010 Winter Olympics – Men's 1000 metres",
+        "event": "Men's 1000 metres",
+        "games": "2010 Winter",
+        "venue": "Richmond Olympic Oval",
+        "date": "17 February 2010",
+        "competitors": "38",
+        "nations": "13",
+        "gold": "Shani Davis",
+        "doc_id": "Q848696"
+      }
+    },
+    {
+      "qid": "pub-087",
+      "question": "According to the provided corpus, how many athletics events at the 1988 Summer Olympics had more than 41 competitors?",
+      "qtype": "aggregation",
+      "graphrag_answer": "17",
+      "gold_answer": [
+        "17"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "aggregation",
+        "answer": "17",
+        "count": 17,
+        "records": [
+          {
+            "doc_id": "Q1439757",
+            "title": "Athletics at the 1988 Summer Olympics – Women's 100 metres",
+            "event": "Women's 100 metres",
+            "games": "1988 Summer",
+            "venue": "Olympic Stadium",
+            "date": "24 September 1988 (heats, quarter-finals)25 September 1988 (semi-finals, final)",
+            "competitors": "64",
+            "nations": "41",
+            "gold": "Florence Griffith-Joyner",
+            "silver": "Evelyn Ashford",
+            "bronze": "Heike Drechsler"
+          },
+          {
+            "doc_id": "Q198766",
+            "title": "Athletics at the 1988 Summer Olympics – Men's 200 metres",
+            "event": "Men's 200 metres",
+            "games": "1988 Summer",
+            "venue": "Olympic Stadium",
+            "date": null,
+            "competitors": "72",
+            "nations": "59",
+            "gold": "Joe DeLoach",
+            "silver": "Carl Lewis",
+            "bronze": "Robson da Silva"
+          },
+          {
+            "doc_id": "Q488601",
+            "title": "Athletics at the 1988 Summer Olympics – Men's 100 metres",
+            "event": "Men's 100 meters",
+            "games": "1988 Summer",
+            "venue": "Olympic Stadium",
+            "date": "23 & 24 September",
+            "competitors": "102",
+            "nations": "69",
+            "gold": "Carl Lewis",
+            "silver": "Linford Christie",
+            "bronze": "Calvin Smith"
+          },
+          {
+            "doc_id": "Q3628689",
+            "title": "Athletics at the 1988 Summer Olympics – Men's 400 metres",
+            "event": "Men's 400 metres",
+            "games": "1988 Summer",
+            "venue": "Olympic Stadium",
+            "date": null,
+            "competitors": "75",
+            "nations": "55",
+            "gold": "Steve Lewis",
+            "silver": "Butch Reynolds",
+            "bronze": "Danny Everett"
+          },
+          {
+            "doc_id": "Q3628678",
+            "title": "Athletics at the 1988 Summer Olympics – Men's 10,000 metres",
+            "event": "Men's 10,000 metres",
+            "games": "1988 Summer",
+            "venue": "Olympic Stadium",
+            "date": null,
+            "competitors": "51",
+            "nations": "36",
+            "gold": "Brahim Boutayeb",
+            "silver": "Salvatore Antibo",
+            "bronze": "Kipkemboi Kimeli"
+          },
+          {
+            "doc_id": "Q3628705",
+            "title": "Athletics at the 1988 Summer Olympics – Men's triple jump",
+            "event": "Men's triple jump",
+            "games": "1988 Summer",
+            "venue": "Olympic Stadium",
+            "date": "23 September 1988 (qualifying)24 September 1988 (final)",
+            "competitors": "43",
+            "nations": "31",
+            "gold": "Khristo Markov",
+            "silver": "Igor Lapshin",
+            "bronze": "Aleksandr Kovalenko"
+          },
+          {
+            "doc_id": "Q3628692",
+            "title": "Athletics at the 1988 Summer Olympics – Men's 800 metres",
+            "event": "Men's 800 metres",
+            "games": "1988 Summer",
+            "venue": "Olympic Stadium",
+            "date": null,
+            "competitors": "70",
+            "nations": "53",
+            "gold": "Paul Ereng",
+            "silver": "Joaquim Cruz",
+            "bronze": "Saïd Aouita"
+          },
+          {
+            "doc_id": "Q3628690",
+            "title": "Athletics at the 1988 Summer Olympics – Men's 5000 metres",
+            "event": "Men's 5000 metres",
+            "games": "1988 Summer",
+            "venue": "Olympic Stadium",
+            "date": null,
+            "competitors": "56",
+            "nations": "39",
+            "gold": "John Ngugi",
+            "silver": "Dieter Baumann",
+            "bronze": "Hansjörg Kunze"
+          },
+          {
+            "doc_id": "Q3628708",
+            "title": "Athletics at the 1988 Summer Olympics – Men's 4 × 400 metres relay",
+            "event": "Men's 4 × 400 metres relay",
+            "games": "1988 Summer",
+            "venue": "Seoul Olympic Stadium",
+            "date": "30 September 1988 (heats)1 October 1988 (final)",
+            "competitors": "99",
+            "nations": "22",
+            "gold": "Danny EverettSteve LewisKevin RobinzineButch ReynoldsAntonio McKay*Andrew Valmon*",
+            "silver": "Howard DavisDevon MorrisWinthrop GrahamBert CameronTrevor Graham*",
+            "bronze": "Norbert DobeleitEdgar IttJörg VaihingerRalf LübkeBodo Kuhn*Mark Henrich*"
+          },
+          {
+            "doc_id": "Q3628683",
+            "title": "Athletics at the 1988 Summer Olympics – Men's 1500 metres",
+            "event": "Men's 1500 metres",
+            "games": "1988 Summer",
+            "venue": "Seoul Olympic Stadium",
+            "date": null,
+            "competitors": "59",
+            "nations": "46",
+            "gold": "Peter Rono",
+            "silver": "Peter Elliott",
+            "bronze": "Jens-Peter Herold"
+          },
+          {
+            "doc_id": "Q3628679",
+            "title": "Athletics at the 1988 Summer Olympics – Women's 10,000 metres",
+            "event": "Women's 10,000 metres",
+            "games": "1988 Summer",
+            "venue": "Olympic Stadium",
+            "date": null,
+            "competitors": "42",
+            "nations": "31",
+            "gold": "Olga Bondarenko",
+            "silver": "Liz McColgan",
+            "bronze": "Yelena Zhupiyova"
+          },
+          {
+            "doc_id": "Q3628699",
+            "title": "Athletics at the 1988 Summer Olympics – Men's marathon",
+            "event": "Men's marathon",
+            "games": "1988 Summer",
+            "venue": "Jamsil Olympic Stadium, Seoul",
+            "date": null,
+            "competitors": "118",
+            "nations": "66",
+            "gold": "Gelindo Bordin",
+            "silver": "Douglas Wakiihuri",
+            "bronze": "Hussein Ahmed Salah"
+          },
+          {
+            "doc_id": "Q3628688",
+            "title": "Athletics at the 1988 Summer Olympics – Women's 400 metres",
+            "event": "Women's 400 metres",
+            "games": "1988 Summer",
+            "venue": "Olympic Stadium",
+            "date": null,
+            "competitors": "46",
+            "nations": "33",
+            "gold": "Olga Bryzgina",
+            "silver": "Petra Müller",
+            "bronze": "Olga Nazarova"
+          },
+          {
+            "doc_id": "Q3628697",
+            "title": "Athletics at the 1988 Summer Olympics – Women's marathon",
+            "event": "Women's marathon",
+            "games": "1988 Summer",
+            "venue": "Jamsil Olympic Stadium, Seoul",
+            "date": null,
+            "competitors": "70",
+            "nations": "39",
+            "gold": "Rosa Mota",
+            "silver": "Lisa Martin",
+            "bronze": "Katrin Dörre"
+          },
+          {
+            "doc_id": "Q3628684",
+            "title": "Athletics at the 1988 Summer Olympics – Women's 200 metres",
+            "event": "Women's 200 metres",
+            "games": "1988 Summer",
+            "venue": "Olympic Stadium",
+            "date": "28 September 1988 (heats, quarter-finals)29 September 1988 (semi-final, final)",
+            "competitors": "59",
+            "nations": "43",
+            "gold": "Florence Griffith-Joyner",
+            "silver": "Grace Jackson",
+            "bronze": "Heike Drechsler"
+          },
+          {
+            "doc_id": "Q3628701",
+            "title": "Athletics at the 1988 Summer Olympics – Men's 50 kilometres walk",
+            "event": "Men's 50 kilometres walk",
+            "games": "1988 Summer",
+            "venue": "Seoul Olympic Stadium",
+            "date": "September 30",
+            "competitors": "42",
+            "nations": "22",
+            "gold": "Vyacheslav Ivanenko",
+            "silver": "Ronald Weigel",
+            "bronze": "Hartwig Gauder"
+          },
+          {
+            "doc_id": "Q3628700",
+            "title": "Athletics at the 1988 Summer Olympics – Men's 20 kilometres walk",
+            "event": "Men's 20 kilometres walk",
+            "games": "1988 Summer",
+            "venue": "Seoul Olympic Stadium (start and finish)",
+            "date": null,
+            "competitors": "53",
+            "nations": "28",
+            "gold": "Jozef Pribilinec",
+            "silver": "Ronald Weigel",
+            "bronze": "Maurizio Damilano"
+          }
+        ]
+      }
+    },
+    {
+      "qid": "pub-088",
+      "question": "According to the provided corpus, which alpine skiing event at the 1992 Winter Olympics had the highest number of competitors?",
+      "qtype": "superlative",
+      "graphrag_answer": "Alpine skiing at the 1992 Winter Olympics – Men's giant slalom",
+      "gold_answer": [
+        "Alpine skiing at the 1992 Winter Olympics – Men's giant slalom"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "superlative",
+        "answer": "Alpine skiing at the 1992 Winter Olympics – Men's giant slalom",
+        "title": "Alpine skiing at the 1992 Winter Olympics – Men's giant slalom",
+        "event": "Men's giant slalom",
+        "games": "1992 Winter",
+        "venue": "Val d'Isère",
+        "date": "February 18, 1992",
+        "competitors": "131",
+        "nations": "47",
+        "gold": "Alberto Tomba",
+        "doc_id": "Q1005805"
+      }
+    },
+    {
+      "qid": "pub-089",
+      "question": "According to the provided corpus, how many boxing events at the 1988 Summer Olympics had more than 39 competitors?",
+      "qtype": "aggregation",
+      "graphrag_answer": "5",
+      "gold_answer": [
+        "5"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "aggregation",
+        "answer": "5",
+        "count": 5,
+        "records": [
+          {
+            "doc_id": "Q10497007",
+            "title": "Boxing at the 1988 Summer Olympics – Flyweight",
+            "event": "Flyweight boxing",
+            "games": "1988 Summer",
+            "venue": "Jamsil Students' Gymnasium",
+            "date": null,
+            "competitors": "44",
+            "nations": "44",
+            "gold": "Kim Kwang-sun",
+            "silver": "Andreas Tews",
+            "bronze": "Mario González"
+          },
+          {
+            "doc_id": "Q10426128",
+            "title": "Boxing at the 1988 Summer Olympics – Bantamweight",
+            "event": "Bantamweight boxing",
+            "games": "1988 Summer",
+            "venue": "Jamsil Students' Gymnasium",
+            "date": null,
+            "competitors": "48",
+            "nations": "48",
+            "gold": "Kennedy McKinney",
+            "silver": "Aleksandar Khristov",
+            "bronze": "Jorge Eliécer Julio"
+          },
+          {
+            "doc_id": "Q10495988",
+            "title": "Boxing at the 1988 Summer Olympics – Featherweight",
+            "event": "Featherweight boxing",
+            "games": "1988 Summer",
+            "venue": "Jamsil Students' Gymnasium",
+            "date": null,
+            "competitors": "48",
+            "nations": "48",
+            "gold": "Giovanni Parisi",
+            "silver": "Daniel Dumitrescu",
+            "bronze": "Lee Jae-hyuk"
+          },
+          {
+            "doc_id": "Q10719573",
+            "title": "Boxing at the 1988 Summer Olympics – Welterweight",
+            "event": "Welterweight boxing",
+            "games": "1988 Summer",
+            "venue": "Jamsil Students' Gymnasium",
+            "date": null,
+            "competitors": "44",
+            "nations": "44",
+            "gold": "Robert Wangila",
+            "silver": "Laurent Boudouani",
+            "bronze": "Jan Dydak"
+          },
+          {
+            "doc_id": "Q10572440",
+            "title": "Boxing at the 1988 Summer Olympics – Light welterweight",
+            "event": "Light welterweight boxing",
+            "games": "1988 Summer",
+            "venue": "Jamsil Students' Gymnasium",
+            "date": null,
+            "competitors": "45",
+            "nations": "45",
+            "gold": "Vyacheslav Yanovski",
+            "silver": "Grahame Cheney",
+            "bronze": "Lars Myrberg"
+          }
+        ]
+      }
+    },
+    {
+      "qid": "pub-090",
+      "question": "Who won the gold medal in the men's greco-roman 96 kg wrestling event at the Summer Olympics held immediately before 2012?",
+      "qtype": "temporal",
+      "graphrag_answer": "Aslanbek Khushtov",
+      "gold_answer": [
+        "Aslanbek Khushtov"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Aslanbek Khushtov",
+        "answer_type": "gold",
+        "title": "Wrestling at the 2008 Summer Olympics – Men's Greco-Roman 96 kg",
+        "event": "Men's Greco-Roman 96 kg",
+        "games": "2008 Summer",
+        "venue": "China Agricultural University Gymnasium",
+        "date": "14 August 2008",
+        "competitors": "20",
+        "nations": "20",
+        "gold": "Aslanbek Khushtov",
+        "doc_id": "Q1005294"
+      }
+    },
+    {
+      "qid": "pub-091",
+      "question": "How many nations competed in Wrestling at the 1992 Summer Olympics – Men's freestyle 100 kg?",
+      "qtype": "lookup",
+      "graphrag_answer": "18",
+      "gold_answer": [
+        "18"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "18",
+        "answer_type": "nations",
+        "title": "Wrestling at the 1992 Summer Olympics – Men's freestyle 100 kg",
+        "event": "Men's freestyle 100 kg",
+        "games": "1992 Summer",
+        "venue": "Institut Nacional d'Educació Física de Catalunya",
+        "date": null,
+        "competitors": "18",
+        "nations": "18",
+        "gold": "Leri Khabelov",
+        "doc_id": "Q3498987"
+      }
+    },
+    {
+      "qid": "pub-092",
+      "question": "According to the provided corpus, how many shooting events at the 1992 Summer Olympics had more than 44 competitors?",
+      "qtype": "aggregation",
+      "graphrag_answer": "6",
+      "gold_answer": [
+        "6"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "aggregation",
+        "answer": "6",
+        "count": 6,
+        "records": [
+          {
+            "doc_id": "Q7500771",
+            "title": "Shooting at the 1992 Summer Olympics – Mixed skeet",
+            "event": "Skeet",
+            "games": "1992 Summer",
+            "venue": "Mollet del Vallès",
+            "date": null,
+            "competitors": "60",
+            "nations": "38",
+            "gold": "Zhang Shan",
+            "silver": "Juan Giha",
+            "bronze": "Bruno Rossetti"
+          },
+          {
+            "doc_id": "Q7500774",
+            "title": "Shooting at the 1992 Summer Olympics – Women's 10 metre air pistol",
+            "event": "Women's 10 metre air pistol",
+            "games": "1992 Summer",
+            "venue": "Mollet del Vallès",
+            "date": null,
+            "competitors": "47",
+            "nations": "31",
+            "gold": "Marina Logvinenko",
+            "silver": "Jasna Šekarić",
+            "bronze": "Mariya Grozdeva"
+          },
+          {
+            "doc_id": "Q7500772",
+            "title": "Shooting at the 1992 Summer Olympics – Mixed trap",
+            "event": "Trap",
+            "games": "1992 Summer",
+            "venue": "Mollet del Vallès",
+            "date": null,
+            "competitors": "54",
+            "nations": "36",
+            "gold": "Petr Hrdlička",
+            "silver": "Kazumi Watanabe",
+            "bronze": "Marco Venturini"
+          },
+          {
+            "doc_id": "Q7500777",
+            "title": "Shooting at the 1992 Summer Olympics – Women's 10 metre air rifle",
+            "event": "Women's 10 metre air rifle",
+            "games": "1992 Summer",
+            "venue": "Mollet del Vallès",
+            "date": null,
+            "competitors": "45",
+            "nations": "28",
+            "gold": "Yeo Kab-soon",
+            "silver": "Vesela Letcheva",
+            "bronze": "Aranka Binder"
+          },
+          {
+            "doc_id": "Q7500768",
+            "title": "Shooting at the 1992 Summer Olympics – Men's 50 metre rifle prone",
+            "event": "Men's 50 metre rifle prone",
+            "games": "1992 Summer",
+            "venue": "Mollet del Vallès",
+            "date": null,
+            "competitors": "52",
+            "nations": "34",
+            "gold": "Lee Eun-chul",
+            "silver": "Harald Stenvaag",
+            "bronze": "Stevan Pletikosić"
+          },
+          {
+            "doc_id": "Q7500756",
+            "title": "Shooting at the 1992 Summer Olympics – Men's 10 metre air pistol",
+            "event": "Men's 10 metre air pistol",
+            "games": "1992 Summer",
+            "venue": "Mollet del Vallès",
+            "date": null,
+            "competitors": "45",
+            "nations": "30",
+            "gold": "Wang Yifu",
+            "silver": "Sergei Pyzhianov",
+            "bronze": "Sorin Babii"
+          }
+        ]
+      }
+    },
+    {
+      "qid": "pub-093",
+      "question": "According to the provided corpus, how many biathlon events at the 2006 Winter Olympics had more than 72 competitors?",
+      "qtype": "aggregation",
+      "graphrag_answer": "4",
+      "gold_answer": [
+        "4"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "aggregation",
+        "answer": "4",
+        "count": 4,
+        "records": [
+          {
+            "doc_id": "Q846788",
+            "title": "Biathlon at the 2006 Winter Olympics – Men's individual",
+            "event": "Men's biathlon individual",
+            "games": "2006 Winter",
+            "venue": "Cesana San Sicario",
+            "date": null,
+            "competitors": "88",
+            "nations": "34",
+            "gold": "Michael Greis",
+            "silver": "Ole Einar Bjørndalen",
+            "bronze": "Halvard Hanevold"
+          },
+          {
+            "doc_id": "Q653672",
+            "title": "Biathlon at the 2006 Winter Olympics – Women's sprint",
+            "event": "Women's biathlon sprint",
+            "games": "2006 Winter",
+            "venue": "Cesana San Sicario",
+            "date": null,
+            "competitors": "84",
+            "nations": "28",
+            "gold": "Florence Baverel-Robert",
+            "silver": "Anna Carin Olofsson",
+            "bronze": "Lilia Efremova"
+          },
+          {
+            "doc_id": "Q847284",
+            "title": "Biathlon at the 2006 Winter Olympics – Women's individual",
+            "event": "Women's biathlon individual",
+            "games": "2006 Winter",
+            "venue": "Cesana San Sicario",
+            "date": null,
+            "competitors": "82",
+            "nations": "28",
+            "gold": "Svetlana Ishmouratova",
+            "silver": "Martina Glagow",
+            "bronze": "Albina Akhatova"
+          },
+          {
+            "doc_id": "Q1004924",
+            "title": "Biathlon at the 2006 Winter Olympics – Men's sprint",
+            "event": "Men's biathlon sprint",
+            "games": "2006 Winter",
+            "venue": "Cesana San Sicario",
+            "date": null,
+            "competitors": "90",
+            "nations": "36",
+            "gold": "Sven Fischer",
+            "silver": "Halvard Hanevold",
+            "bronze": "Frode Andresen"
+          }
+        ]
+      }
+    },
+    {
+      "qid": "pub-094",
+      "question": "Who won the gold medal in the men's greco-roman 48 kg wrestling event at the Summer Olympics held immediately before 1996?",
+      "qtype": "temporal",
+      "graphrag_answer": "Oleg Kucherenko",
+      "gold_answer": [
+        "Oleg Kucherenko"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Oleg Kucherenko",
+        "answer_type": "gold",
+        "title": "Wrestling at the 1992 Summer Olympics – Men's Greco-Roman 48 kg",
+        "event": "Men's Greco-Roman 48 kg",
+        "games": "1992 Summer",
+        "venue": "Institut Nacional d'Educació Física de Catalunya",
+        "date": null,
+        "competitors": "19",
+        "nations": "19",
+        "gold": "Oleg Kucherenko",
+        "doc_id": "Q3499058"
+      }
+    },
+    {
+      "qid": "pub-095",
+      "question": "Who won the gold medal in the event held at Beijing National Stadium on 16 August 2008?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Valerie Vili",
+      "gold_answer": [
+        "Valerie Vili"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Valerie Vili",
+        "answer_type": "gold",
+        "title": "Athletics at the 2008 Summer Olympics – Women's shot put",
+        "event": "Women's shot put",
+        "games": "2008 Summer",
+        "venue": "Beijing National Stadium",
+        "date": "16 August 2008",
+        "competitors": "35",
+        "nations": "22",
+        "gold": "Valerie Vili",
+        "doc_id": "Q848278"
+      }
+    },
+    {
+      "qid": "pub-096",
+      "question": "Who won the gold medal in the event held at Riocentro – Pavilion 6 on 10–21 August 2016?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Fazliddin Gaibnazarov",
+      "gold_answer": [
+        "Fazliddin Gaibnazarov"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Fazliddin Gaibnazarov",
+        "answer_type": "gold",
+        "title": "Boxing at the 2016 Summer Olympics – Men's light welterweight",
+        "event": "Men's light welterweight boxing",
+        "games": "2016 Summer",
+        "venue": "Riocentro – Pavilion 6",
+        "date": "10–21 August 2016",
+        "competitors": "28",
+        "nations": "28",
+        "gold": "Fazliddin Gaibnazarov",
+        "doc_id": "Q26212151"
+      }
+    },
+    {
+      "qid": "pub-097",
+      "question": "Who won the gold medal in the women's épée fencing event at the Summer Olympics held immediately before 2016?",
+      "qtype": "temporal",
+      "graphrag_answer": "Yana Shemyakina",
+      "gold_answer": [
+        "Yana Shemyakina"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Yana Shemyakina",
+        "answer_type": "gold",
+        "title": "Fencing at the 2012 Summer Olympics – Women's épée",
+        "event": "Women's épée",
+        "games": "2012 Summer",
+        "venue": "ExCeL Exhibition Centre",
+        "date": "30 July",
+        "competitors": "37",
+        "nations": "20",
+        "gold": "Yana Shemyakina",
+        "doc_id": "Q1156695"
+      }
+    },
+    {
+      "qid": "pub-098",
+      "question": "Who won the gold medal in the event held at Sydney Convention and Exhibition Centre on 18 September to 1 October 2000?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Bekzat Sattarkhanov",
+      "gold_answer": [
+        "Bekzat Sattarkhanov"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Bekzat Sattarkhanov",
+        "answer_type": "gold",
+        "title": "Boxing at the 2000 Summer Olympics – Featherweight",
+        "event": "Men's featherweight boxing",
+        "games": "2000 Summer",
+        "venue": "Sydney Convention and Exhibition Centre",
+        "date": "18 September to 1 October 2000",
+        "competitors": "28",
+        "nations": "28",
+        "gold": "Bekzat Sattarkhanov",
+        "doc_id": "Q4951838"
+      }
+    },
+    {
+      "qid": "pub-099",
+      "question": "Who won the gold medal in the event held at Laura Biathlon & Ski Complex on 22 February 2014?",
+      "qtype": "multi_hop",
+      "graphrag_answer": "Erik LesserDaniel BöhmArnd PeifferSimon Schempp",
+      "gold_answer": [
+        "Erik LesserDaniel BöhmArnd PeifferSimon Schempp"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Erik LesserDaniel BöhmArnd PeifferSimon Schempp",
+        "answer_type": "gold",
+        "title": "Biathlon at the 2014 Winter Olympics – Men's relay",
+        "event": "Men's relay",
+        "games": "2014 Winter",
+        "venue": "Laura Biathlon & Ski Complex",
+        "date": "22 February 2014",
+        "competitors": "76",
+        "nations": "19",
+        "gold": "Erik LesserDaniel BöhmArnd PeifferSimon Schempp",
+        "doc_id": "Q15052014"
+      }
+    },
+    {
+      "qid": "pub-100",
+      "question": "Who won the gold medal in the women's 200 metre backstroke swimming event at the Summer Olympics held immediately before 2016?",
+      "qtype": "temporal",
+      "graphrag_answer": "Missy Franklin",
+      "gold_answer": [
+        "Missy Franklin"
+      ],
+      "correct": true,
+      "graph_result": {
+        "type": "lookup",
+        "answer": "Missy Franklin",
+        "answer_type": "gold",
+        "title": "Swimming at the 2012 Summer Olympics – Women's 200 metre backstroke",
+        "event": "Women's 200 metre backstroke",
+        "games": "2012 Summer",
+        "venue": "London Aquatics Centre",
+        "date": null,
+        "competitors": "37",
+        "nations": "31",
+        "gold": "Missy Franklin",
+        "doc_id": "Q2051400"
+      }
+    }
+  ]
+}
