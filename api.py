@@ -47,7 +47,7 @@ app.add_middleware(
 
 class QuestionRequest(BaseModel):
     question: str
-    backend: str = "gemini"
+    backend: Optional[str] = None
     model: Optional[str] = None
     top_k: int = Field(default=3, ge=1, le=20)
     max_steps: int = Field(default=8, ge=1, le=20)

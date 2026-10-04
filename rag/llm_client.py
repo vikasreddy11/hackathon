@@ -107,7 +107,7 @@ class LLMClient:
             elif resolved == "openai":
                 return self._call_openai(prompt, system_prompt, target_model or "gpt-4o-mini", temperature, max_tokens)
             elif resolved == "gemini":
-                default_gemini = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
+                default_gemini = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
                 return self._call_gemini(prompt, system_prompt, target_model or default_gemini, temperature, max_tokens)
             elif resolved == "anthropic":
                 return self._call_anthropic(prompt, system_prompt, target_model or "claude-3-5-haiku-20241022", temperature, max_tokens)
