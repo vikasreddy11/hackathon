@@ -89,6 +89,20 @@ def load_csv(path: Path) -> str:
     return "\n".join(rows)
 
 
+def load_jsonl(path: Path) -> list[dict]:
+    """Load JSONL file where each line is a document dict."""
+    docs = []
+    with open(path, "r", encoding="utf-8", errors="replace") as fh:
+        for line in fh:
+            line = line.strip()
+            if line:
+                try:
+                    docs.append(json.loads(line))
+                except json.JSONDecodeError:
+                    continue
+    return docs
+
+
 LOADERS = {
     ".txt": load_txt,
     ".md": load_md,
@@ -195,57 +209,95 @@ def ingest(
     Ingest all supported documents from raw_dir, chunk them, and write to
     output_dir/chunks.jsonl.
 
+    Supports individual files (.txt, .md, .pdf, .csv) and JSONL corpora (.jsonl).
     Returns the list of chunk dicts written.
     """
     output_dir.mkdir(parents=True, exist_ok=True)
     out_path = output_dir / "chunks.jsonl"
 
-    raw_files = sorted(
-        p for p in raw_dir.iterdir()
-        if p.is_file() and p.suffix.lower() in LOADERS
+    raw_dir = Path(raw_dir)
+    all_files = sorted(
+        p for p in raw_dir.rglob("*")
+        if p.is_file() and (p.suffix.lower() in LOADERS or p.suffix.lower() == ".jsonl")
+        and not p.name.startswith("eval_")
     )
 
-    if not raw_files:
+    if not all_files:
         print(f"[ingest] No supported files found in {raw_dir}", file=sys.stderr)
         return []
 
     all_chunks: list[dict] = []
 
     with open(out_path, "w", encoding="utf-8") as fh:
-        for doc_path in raw_files:
-            doc_id = make_doc_id(doc_path)
-            print(f"[ingest] Loading: {doc_path.name}")
+        for doc_path in all_files:
+            if doc_path.suffix.lower() == ".jsonl":
+                print(f"[ingest] Processing JSONL corpus: {doc_path.name}")
+                docs = load_jsonl(doc_path)
+                print(f"[ingest] Loaded {len(docs)} documents from {doc_path.name}")
+                for doc in docs:
+                    doc_id = doc.get("doc_id") or doc.get("wikidata_qid") or doc.get("title") or "unknown_doc"
+                    title = doc.get("title", "")
+                    raw_text = doc.get("text", "")
+                    clean = clean_text(raw_text)
+                    if not clean:
+                        continue
 
-            try:
-                raw_text = load_document(doc_path)
-            except Exception as exc:
-                print(f"[ingest]   ERROR loading {doc_path.name}: {exc}", file=sys.stderr)
-                continue
+                    chunk_index = 0
+                    for chunk_str, char_start, char_end in chunk_text(
+                        clean, chunk_tokens=chunk_tokens, overlap_tokens=overlap_tokens
+                    ):
+                        chunk_id = make_chunk_id(doc_id, chunk_index)
+                        record = {
+                            "doc_id": doc_id,
+                            "chunk_id": chunk_id,
+                            "title": title,
+                            "url": doc.get("url", ""),
+                            "wikidata_qid": doc.get("wikidata_qid", ""),
+                            "wikipedia_pageid": doc.get("wikipedia_pageid"),
+                            "source": doc.get("url") or str(doc_path.resolve()),
+                            "text": chunk_str,
+                            "char_start": char_start,
+                            "char_end": char_end,
+                            "token_count": approx_token_count(chunk_str),
+                        }
+                        fh.write(json.dumps(record, ensure_ascii=False) + "\n")
+                        all_chunks.append(record)
+                        chunk_index += 1
+            else:
+                doc_id = make_doc_id(doc_path)
+                print(f"[ingest] Loading: {doc_path.name}")
 
-            clean = clean_text(raw_text)
-            if not clean:
-                print(f"[ingest]   Skipping empty document: {doc_path.name}", file=sys.stderr)
-                continue
+                try:
+                    raw_text = load_document(doc_path)
+                except Exception as exc:
+                    print(f"[ingest]   ERROR loading {doc_path.name}: {exc}", file=sys.stderr)
+                    continue
 
-            chunk_index = 0
-            for chunk_str, char_start, char_end in chunk_text(
-                clean, chunk_tokens=chunk_tokens, overlap_tokens=overlap_tokens
-            ):
-                chunk_id = make_chunk_id(doc_id, chunk_index)
-                record = {
-                    "doc_id": doc_id,
-                    "chunk_id": chunk_id,
-                    "source": str(doc_path.resolve()),
-                    "text": chunk_str,
-                    "char_start": char_start,
-                    "char_end": char_end,
-                    "token_count": approx_token_count(chunk_str),
-                }
-                fh.write(json.dumps(record, ensure_ascii=False) + "\n")
-                all_chunks.append(record)
-                chunk_index += 1
+                clean = clean_text(raw_text)
+                if not clean:
+                    print(f"[ingest]   Skipping empty document: {doc_path.name}", file=sys.stderr)
+                    continue
 
-            print(f"[ingest]   -> {chunk_index} chunks written for {doc_id}")
+                chunk_index = 0
+                for chunk_str, char_start, char_end in chunk_text(
+                    clean, chunk_tokens=chunk_tokens, overlap_tokens=overlap_tokens
+                ):
+                    chunk_id = make_chunk_id(doc_id, chunk_index)
+                    record = {
+                        "doc_id": doc_id,
+                        "chunk_id": chunk_id,
+                        "title": doc_id,
+                        "source": str(doc_path.resolve()),
+                        "text": chunk_str,
+                        "char_start": char_start,
+                        "char_end": char_end,
+                        "token_count": approx_token_count(chunk_str),
+                    }
+                    fh.write(json.dumps(record, ensure_ascii=False) + "\n")
+                    all_chunks.append(record)
+                    chunk_index += 1
+
+                print(f"[ingest]   -> {chunk_index} chunks written for {doc_id}")
 
     print(f"\n[ingest] Done. {len(all_chunks)} total chunks -> {out_path}")
     return all_chunks
